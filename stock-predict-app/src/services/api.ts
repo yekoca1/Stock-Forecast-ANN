@@ -4,6 +4,7 @@ export interface StockHistoryItem {
 }
 
 export interface StockPredictions {
+  ticker: any
   tomorrow: number
   oneMonth: number
 }
