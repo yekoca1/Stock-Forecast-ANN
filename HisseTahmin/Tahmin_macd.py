@@ -4,6 +4,12 @@
 # In[1]:
 
 
+#!/usr/bin/env python
+# coding: utf-8
+
+# In[1]:
+
+
 import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.preprocessing import MinMaxScaler
@@ -14,15 +20,15 @@ from datetime import datetime, timedelta
 import yfinance as yf
 
 # Tarih değişkenlerini tanımlama
-start_date = "2022-09-01"
-end_date = "2025-01-01"
+start_date = "2023-09-01"
+end_date = "2025-05-01"
 
 # end_date'ye bir gün ekleme
 end_date_dt = datetime.strptime(end_date, "%Y-%m-%d")  # end_date'i datetime objesine çevir
 end_date_plus_one = (end_date_dt + timedelta(days=1)).strftime("%Y-%m-%d")  # Bir gün ekle ve formatla
 
 # Hisse senedi verisini çekme
-hisse = 'asels.IS'
+hisse = 'THYAO.IS'
 kapanis_fiyatlari = yf.download(hisse, start=start_date, end=end_date_plus_one)['Close']
 
 
@@ -109,7 +115,7 @@ model.add(Dense(units=1))
 model.compile(optimizer='adam', loss='mean_squared_error')
 
 # Modeli eğitme
-history = model.fit(x_train, y_train, batch_size=32, epochs=100)
+history = model.fit(x_train, y_train, batch_size=32, epochs=50)
 
 # Test verisini hazırlama
 x_test = []
@@ -187,7 +193,7 @@ plt.xticks(rotation=45)
 plt.show()
 
 # Son kapanış fiyatını yazdırma
-son_kapanis_fiyati = kapanis_fiyatlari.iloc[-1]
+son_kapanis_fiyati = float(kapanis_fiyatlari.iloc[-1])
 print(f"{hisse} En son kapanış fiyatı: {son_kapanis_fiyati:.2f} TL")
 
 # Tahmin fiyatlarını yazdırma
@@ -203,8 +209,8 @@ def RSI(data, window=14):
     gain = (delta.where(delta > 0, 0)).rolling(window=window).mean()
     loss = (-delta.where(delta < 0, 0)).rolling(window=window).mean()
     RS = gain / loss
-    RSI = 100 - (100 / (1 + RS))
-    return RSI.iloc[-1]
+    rsi = 100 - (100 / (1 + RS))
+    return float(rsi.iloc[-1])
 
 rsi_degeri = RSI(kapanis_fiyatlari[-14:])
 print(f"RSI: {rsi_degeri:.2f}")
@@ -242,6 +248,169 @@ elif 50 < rsi_degeri <= 70:
 
 tarih = (datetime.now() + timedelta(days=g)).strftime("%Y-%m-%d")
 print(f"{g} gün sonra aylık RSI'ye göre güncellenmiş tahmini fiyat: {aylik_guncellenmis_fiyat:.2f} TL")
+
+
+# In[ ]:
+
+
+
+
+
+# In[4]:
+
+
+import pandas as pd
+
+# MACD hesaplama fonksiyonu
+def hesapla_macd(data, short=12, long=26, signal=9):
+    # Eğer DataFrame ise, sadece ilk sütunu kullan
+    if isinstance(data, pd.DataFrame):
+        data = data.iloc[:, 0]
+    ema_short = data.ewm(span=short, adjust=False).mean()
+    ema_long = data.ewm(span=long, adjust=False).mean()
+    macd_line = ema_short - ema_long
+    signal_line = macd_line.ewm(span=signal, adjust=False).mean()
+    macd_histogram = macd_line - signal_line
+    return macd_line, signal_line, macd_histogram
+
+
+
+# MACD hesapla (örnek olarak df['Close'] alındı)
+macd_line, signal_line, macd_hist = hesapla_macd(kapanis_fiyatlari)
+
+
+
+# Son değerleri al
+macd_last = macd_line.iloc[-1]
+signal_last = signal_line.iloc[-1]
+hist_last = macd_hist.iloc[-1]
+
+
+print(f"Son MACD Değeri: {float(macd_last):.2f}")
+print(f"Son Signal Değeri: {float(signal_last):.2f}")
+print(f"Son Histogram Değeri: {float(hist_last):.2f}")
+print(f"   ")
+
+# Alım ve Satım sinyalleri
+sinyaller = []
+
+# MACD ve Signal çizgilerinin kesişim noktalarını kontrol etme
+for i in range(1, len(macd_line)):
+    if macd_line.iloc[i] > signal_line.iloc[i] and macd_line.iloc[i-1] <= signal_line.iloc[i-1]:
+        sinyaller.append((macd_line.index[i], 'Alım', macd_line.iloc[i]))
+    elif macd_line.iloc[i] < signal_line.iloc[i] and macd_line.iloc[i-1] >= signal_line.iloc[i-1]:
+        sinyaller.append((macd_line.index[i], 'Satım', macd_line.iloc[i]))
+
+# Son 5 sinyali al
+son_bes_sinyal = sinyaller[-5:]
+
+# Sinyalleri yazdır
+print("Son 5 Alım ve Satım Sinyali:")
+for tarih, sinyal, deger in son_bes_sinyal:
+    print(f"Tarih: {tarih.strftime('%Y-%m-%d')}, Sinyal: {sinyal}, MACD Değeri: {deger:.2f}")
+
+# Son %20'lik kısmı al
+son_yuzde = int(len(macd_line) * 0.2)
+macd_line = macd_line.iloc[-son_yuzde:]
+signal_line = signal_line.iloc[-son_yuzde:]
+
+# Grafik oluşturma
+plt.figure(figsize=(12, 6))
+plt.plot(macd_line.index, macd_line, label='MACD Line', color='blue')
+plt.plot(signal_line.index, signal_line, label='Signal Line', color='orange')
+
+# Sinyalleri grafikte göster
+for tarih, sinyal, deger in son_bes_sinyal:
+    renk = 'blue' if sinyal == 'Alım' else 'red'
+    plt.scatter(tarih, deger, color=renk, label=sinyal, zorder=5)
+
+plt.title('MACD ve Signal Çizgisi ile Alım/Satım Sinyalleri')
+plt.xlabel('Tarih')
+plt.ylabel('Değer')
+plt.legend()
+plt.xticks(rotation=45)
+plt.grid(True)
+plt.tight_layout()
+plt.show()
+
+
+# In[ ]:
+
+
+
+
+
+# In[5]:
+
+
+import pandas as pd
+
+# MACD hesaplama fonksiyonu
+def hesapla_macd(data, short=12, long=26, signal=9):
+    # Eğer DataFrame ise, sadece ilk sütunu kullan
+    if isinstance(data, pd.DataFrame):
+        data = data.iloc[:, 0]
+    ema_short = data.ewm(span=short, adjust=False).mean()
+    ema_long = data.ewm(span=long, adjust=False).mean()
+    macd_line = ema_short - ema_long
+    signal_line = macd_line.ewm(span=signal, adjust=False).mean()
+    macd_histogram = macd_line - signal_line
+    return macd_line, signal_line, macd_histogram
+
+
+
+# MACD hesapla (örnek olarak df['Close'] alındı)
+macd_line, signal_line, macd_hist = hesapla_macd(kapanis_fiyatlari)
+
+
+
+# Son değerleri al
+macd_last = macd_line.iloc[-1]
+signal_last = signal_line.iloc[-1]
+hist_last = macd_hist.iloc[-1]
+
+
+print(f"Son MACD Değeri: {float(macd_last):.2f}")
+print(f"Son Signal Değeri: {float(signal_last):.2f}")
+print(f"Son Histogram Değeri: {float(hist_last):.2f}")
+print(f"   ")
+
+# Alım ve Satım sinyalleri
+sinyaller = []
+
+# MACD ve Signal çizgilerinin kesişim noktalarını kontrol etme
+for i in range(1, len(macd_line)):
+    if macd_line.iloc[i] > signal_line.iloc[i] and macd_line.iloc[i-1] <= signal_line.iloc[i-1]:
+        sinyaller.append((macd_line.index[i], 'Alım', macd_line.iloc[i]))
+    elif macd_line.iloc[i] < signal_line.iloc[i] and macd_line.iloc[i-1] >= signal_line.iloc[i-1]:
+        sinyaller.append((macd_line.index[i], 'Satım', macd_line.iloc[i]))
+
+# Son 5 sinyali al
+son_bes_sinyal = sinyaller[-5:]
+
+# Sinyalleri yazdır
+print("Son 5 Alım ve Satım Sinyali:")
+for tarih, sinyal, deger in son_bes_sinyal:
+    print(f"Tarih: {tarih.strftime('%Y-%m-%d')}, Sinyal: {sinyal}, MACD Değeri: {deger:.2f}")
+
+# Grafik oluşturma
+plt.figure(figsize=(12, 6))
+plt.plot(macd_line.index, macd_line, label='MACD Line', color='blue')
+plt.plot(signal_line.index, signal_line, label='Signal Line', color='orange')
+
+# Sinyalleri grafikte göster
+for tarih, sinyal, deger in son_bes_sinyal:
+    renk = 'blue' if sinyal == 'Alım' else 'red'
+    plt.scatter(tarih, deger, color=renk, label=sinyal, zorder=5)
+
+plt.title('MACD ve Signal Çizgisi ile Alım/Satım Sinyalleri')
+plt.xlabel('Tarih')
+plt.ylabel('Değer')
+plt.legend()
+plt.xticks(rotation=45)
+plt.grid(True)
+plt.tight_layout()
+plt.show()
 
 
 # In[ ]:
