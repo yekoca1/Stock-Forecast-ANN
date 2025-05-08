@@ -15,4 +15,4 @@ function Predictions({ predictions }: Props) {
   );
 }
 
-export default Predictions
+export default Predictions;

@@ -9,6 +9,9 @@ import pandas as pd
 from sklearn.preprocessing import MinMaxScaler
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import LSTM, Dense, Dropout
+import io
+import matplotlib.pyplot as plt
+from fastapi.responses import StreamingResponse
 
 # ========== Setup App ==========
 app = FastAPI()
@@ -115,6 +118,16 @@ def train_predict_model(close_prices):
 
     return future_prediction
 
+def generate_plot(close_prices, predictions):
+    plt.figure(figsize=(10, 5))
+    plt.plot(close_prices.index, close_prices.values, label='Historical Close Prices')
+    plt.plot(pd.date_range(close_prices.index[-1], periods=len(predictions)+1, freq='B')[1:], predictions, label='Predicted Prices')
+    plt.legend()
+    plt.title('Stock Price Prediction')
+    plt.xlabel('Date')
+    plt.ylabel('Price')
+
+
 # ========== API Route ==========
 
 @app.post("/predict")
@@ -161,4 +174,27 @@ async def predict_stock(req: StockRequest):
         import traceback
         traceback.print_exc()
         raise HTTPException(status_code=400, detail=f"Hata: {str(e)}")
+    
 
+
+@app.get("/plot")
+async def plot_stock(ticker: str):
+    try:
+        close_prices = get_stock_data(ticker.upper())
+        if close_prices.empty:
+            raise ValueError("Veri alınamadı.")
+
+        predict_fn = train_predict_model(close_prices)
+        future_preds = predict_fn(30)
+
+        # Call plotting function
+        generate_plot(close_prices, future_preds)
+
+        buf = io.BytesIO()
+        plt.savefig(buf, format='png')
+        plt.close()
+        buf.seek(0)
+
+        return StreamingResponse(buf, media_type="image/png")
+    except Exception as e:
+        raise HTTPException(status_code=400, detail=f"Hata: {str(e)}")

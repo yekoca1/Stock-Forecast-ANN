@@ -22,7 +22,7 @@ end_date_dt = datetime.strptime(end_date, "%Y-%m-%d")  # end_date'i datetime obj
 end_date_plus_one = (end_date_dt + timedelta(days=1)).strftime("%Y-%m-%d")  # Bir gün ekle ve formatla
 
 # Hisse senedi verisini çekme
-hisse = 'asels.IS'
+hisse = 'THYAO.IS'
 kapanis_fiyatlari = yf.download(hisse, start=start_date, end=end_date_plus_one)['Close']
 
 
@@ -245,7 +245,3 @@ print(f"{g} gün sonra aylık RSI'ye göre güncellenmiş tahmini fiyat: {aylik_
 
 
 # In[ ]:
-
-
-
-

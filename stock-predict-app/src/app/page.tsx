@@ -23,6 +23,7 @@ export default function HomePage() {
   const [lastSearched, setLastSearched] = useState<string | null>(null);
 
   const handleSearch = async (stockName: string) => {
+    //setLastSearched(stockName)
     if (!stockName.trim()) {
       setError("Hisse adı boş olamaz.");
       return;
@@ -66,12 +67,9 @@ export default function HomePage() {
       {/* ❗ Error message */}
       {error && <div className="text-red-500 mt-4">{error}</div>}
 
-      {/* 📈 Stock Chart, Burası değişti önceki hali şema.txt*/}
-      {lastSearched && !loading && (
+      {predictions && !loading && (
         <div className="w-full max-w-4xl mt-8">
-          <h2 className="text-lg font-semibold mb-2">
-            📚 Hisse Geçmişi (Grafik)
-          </h2>
+          <h2 className="text-lg font-semibold mb-2">📚 Hisse Geçmişi (Grafik)</h2>
           <img
             src={`http://localhost:8000/plot?ticker=${lastSearched}`}
             alt={`${lastSearched} grafiği`}
