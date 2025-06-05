@@ -1,0 +1,5 @@
+Model,Type,Test_MAE,Test_RMSE,Test_R2,Test_Direction_Accuracy,Best_Params,Test_Accuracy,Test_Precision,Test_Recall,Test_F1
+linear_regression,Regression,0.0,0.0,1.0,1.0,default,,,,
+random_forest_regression,Regression,2.4424906541753444e-15,2.4424906541753444e-15,0.0,1.0,default,,,,
+xgboost_regression,Regression,3.20342143922403e-08,3.20342143922403e-08,0.0,1.0,default,,,,
+random_forest_classification,Classification,,,,,default,1.0,1.0,1.0,1.0

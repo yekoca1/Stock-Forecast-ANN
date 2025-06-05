@@ -21,24 +21,26 @@ from sklearn.preprocessing import StandardScaler
 # TextBlob for sentiment analysis
 from textblob import TextBlob
 
-# Download required NLTK data
+# Download 2.required NLTK data
 try:
     nltk.data.find('tokenizers/punkt')
-    nltk.data.find('tokenizers/punkt_tab') # Add this line
+    nltk.data.find('tokenizers/punkt_tab')
     nltk.data.find('corpora/stopwords')
     nltk.data.find('corpora/wordnet')
     nltk.data.find('taggers/averaged_perceptron_tagger')
-    nltk.data.find('taggers/averaged_perceptron_tagger_eng')  # Add this line
+    nltk.data.find('taggers/averaged_perceptron_tagger_eng')
     nltk.data.find('chunkers/maxent_ne_chunker')
+    nltk.data.find('chunkers/maxent_ne_chunker_tab')  # Add this line
     nltk.data.find('corpora/words')
 except LookupError:
     nltk.download('punkt')
-    nltk.download('punkt_tab') # Add this line
+    nltk.download('punkt_tab')
     nltk.download('stopwords')
     nltk.download('wordnet')
     nltk.download('averaged_perceptron_tagger')
-    nltk.download('averaged_perceptron_tagger_eng')  # Add this line
+    nltk.download('averaged_perceptron_tagger_eng')
     nltk.download('maxent_ne_chunker')
+    nltk.download('maxent_ne_chunker_tab')  # Add this line
     nltk.download('words')
 
 # Set up logging
@@ -534,10 +536,10 @@ def main():
     """
     # Load processed data from Stage 1
     try:
-        df = pd.read_csv("training_dataset.csv")
+        df = pd.read_csv("training_dataset_thyao.csv")
         logger.info(f"Loaded {len(df)} records from training dataset")
     except FileNotFoundError:
-        logger.error("training_dataset.csv not found. Please run Stage 1 first.")
+        logger.error("training_dataset_thyao.csv not found. Please run Stage 1 first.")
         return None
     
     # Initialize NLP processor

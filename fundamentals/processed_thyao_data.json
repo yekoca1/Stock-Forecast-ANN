@@ -1,9 +1,10 @@
 [
   {
-    "file_path": "notification_1440777.json",
+    "file_path": "thyao_notifications\\notification_1440777.json",
     "stock_code": "THYAO",
     "content": "Summary Info\nA Joint Business Agreement with Thai Airways\nRelated Companies\n[]\nRelated Funds\n[]\noda_MaterialEventDisclosureGeneralAbstract|\nMaterial Event Disclosure General\noda_UpdateAnnouncementFlag|\n  Update Notification Flag\nHayır (No)\noda_CorrectionAnnouncementFlag|\n  Correction Notification Flag\nHayır (No)\noda_DateOfThePreviousNotificationAboutTheSameSubject|\n  Date Of The Previous Notification About The Same Subject\n-\noda_DelayedAnnouncementFlag|\n  Postponed Notification Flag\nEvet (Yes)\noda_AnnouncementContentSection|\n  Announcement Content\noda_ExplanationSection|\n  Explanations\noda_ExplanationTextBlock|\n\n\n\n\n\nA Joint Business Agreement (JBA) based on a revenue-sharing model has been signed between our Company and Thai Airways on the Istanbul–Bangkok route. Through this agreement, the aim is to maximize passenger numbers and revenue by jointly utilizing the capacity of both airlines on the specific route.\n\nThe agreement, which is subject to approval by the relevant competition authorities and regulatory bodies in the respective countries, is planned to take effect in the Winter 2025/2026 schedule period depending on the completion of the approval processes. The agreement is set for a term of 3 years, with an optional extension of 2 years.\n\nConsidering the uncertainties due to the process not yet being finalized and the potential impact on investor decisions, our Board of Directors decided to postpone the public disclosure of the agreement, resolved on 16.05.2025, in accordance with Article 6 of the Capital Markets Board's Communiqué on Material Events (II-15.1) in order to protect our Company's legitimate interests and to prevent any adverse effect on the process.\n\nThis announcement is being made due to the signing of the agreement.\n\nRespectfully announced to the public. \n\n\n\nWe proclaim that our above disclosure is in conformity with the principles set down in “Material Events Communiqué” of Capital Markets Board, and it fully reflects all information coming to our knowledge on the subject matter thereof, and it is in conformity with our books, records and documents, and all reasonable efforts have been shown by our Company in order to obtain all information fully and accurately about the subject matter thereof, and we’re personally liable for the disclosures.",
-    "publication_date": "2025-05-16T00:00:00",
+    "publication_date": "2025-06-04T11:13:24",
+    "timestamp_field": "2025-06-04 11:13:24",
     "found_dates": [
       "16.05.2025"
     ],
@@ -15,18 +16,162 @@
       "timestamp": "2025-06-04 11:13:24",
       "url": "https://www.kap.org.tr/en/Bildirim/1444201-1442313-1442222-1442091-1440808-1440807-1440806-1440796-1440782-1440777"
     },
-    "target_trading_date": "2025-05-19T00:00:00+03:00",
-    "price_data": null,
-    "price_change_absolute": null,
-    "price_change_percentage": null,
-    "direction": null,
-    "processing_timestamp": "2025-06-04T13:18:19.664876"
+    "target_trading_date": "2025-06-04T00:00:00+03:00",
+    "price_data": {
+      "yahoo_symbol": "THYAO.IS",
+      "target_date": "2025-06-04",
+      "actual_target_date": "2025-06-04",
+      "actual_previous_date": "2025-06-03",
+      "target_price": 287.0,
+      "previous_price": 283.75,
+      "price_data": {
+        "2025-05-20": {
+          "Open": 293.75,
+          "High": 293.75,
+          "Low": 286.0,
+          "Close": 286.75,
+          "Volume": 28204042,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        "2025-05-21": {
+          "Open": 286.75,
+          "High": 287.0,
+          "Low": 279.75,
+          "Close": 279.75,
+          "Volume": 42495427,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        "2025-05-22": {
+          "Open": 283.5,
+          "High": 287.5,
+          "Low": 278.25,
+          "Close": 284.25,
+          "Volume": 49323964,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        "2025-05-23": {
+          "Open": 283.5,
+          "High": 286.25,
+          "Low": 279.75,
+          "Close": 279.75,
+          "Volume": 35288228,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        "2025-05-26": {
+          "Open": 282.5,
+          "High": 282.75,
+          "Low": 279.25,
+          "Close": 280.0,
+          "Volume": 25342423,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        "2025-05-27": {
+          "Open": 280.5,
+          "High": 283.0,
+          "Low": 275.0,
+          "Close": 275.0,
+          "Volume": 26579753,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        "2025-05-28": {
+          "Open": 275.5,
+          "High": 279.0,
+          "Low": 274.5,
+          "Close": 276.5,
+          "Volume": 21458274,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        "2025-05-29": {
+          "Open": 278.75,
+          "High": 281.0,
+          "Low": 277.25,
+          "Close": 278.5,
+          "Volume": 24116391,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        "2025-05-30": {
+          "Open": 279.0,
+          "High": 280.25,
+          "Low": 273.0,
+          "Close": 273.25,
+          "Volume": 24838082,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        "2025-06-02": {
+          "Open": 272.5,
+          "High": 276.5,
+          "Low": 272.0,
+          "Close": 275.75,
+          "Volume": 23231977,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        "2025-06-03": {
+          "Open": 278.0,
+          "High": 284.25,
+          "Low": 277.75,
+          "Close": 283.75,
+          "Volume": 22246363,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        "2025-06-04": {
+          "Open": 283.25,
+          "High": 287.5,
+          "Low": 281.75,
+          "Close": 287.0,
+          "Volume": 21146096,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        "2025-06-05": {
+          "Open": 285.75,
+          "High": 287.0,
+          "Low": 284.75,
+          "Close": 286.0,
+          "Volume": 3041826,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        }
+      },
+      "data_available": true,
+      "available_dates": [
+        "2025-05-20",
+        "2025-05-21",
+        "2025-05-22",
+        "2025-05-23",
+        "2025-05-26",
+        "2025-05-27",
+        "2025-05-28",
+        "2025-05-29",
+        "2025-05-30",
+        "2025-06-02",
+        "2025-06-03",
+        "2025-06-04",
+        "2025-06-05"
+      ],
+      "date_range_requested": "2025-05-20 to 2025-06-05"
+    },
+    "price_change_absolute": 3.25,
+    "price_change_percentage": 1.145374449339207,
+    "direction": 1,
+    "processing_timestamp": "2025-06-05T11:27:25.456569"
   },
   {
-    "file_path": "notification_1440782.json",
+    "file_path": "thyao_notifications\\notification_1440782.json",
     "stock_code": "THYAO",
     "content": "Summary Info\nA Joint Business Agreement with Thai Airways\nRelated Companies\n[]\nRelated Funds\n[]\noda_MaterialEventDisclosureGeneralAbstract|\nMaterial Event Disclosure General\noda_UpdateAnnouncementFlag|\n  Update Notification Flag\nHayır (No)\noda_CorrectionAnnouncementFlag|\n  Correction Notification Flag\nHayır (No)\noda_DateOfThePreviousNotificationAboutTheSameSubject|\n  Date Of The Previous Notification About The Same Subject\n-\noda_DelayedAnnouncementFlag|\n  Postponed Notification Flag\nEvet (Yes)\noda_AnnouncementContentSection|\n  Announcement Content\noda_ExplanationSection|\n  Explanations\noda_ExplanationTextBlock|\n\n\n\n\n\nA Joint Business Agreement (JBA) based on a revenue-sharing model has been signed between our Company and Thai Airways on the Istanbul–Bangkok route. Through this agreement, the aim is to maximize passenger numbers and revenue by jointly utilizing the capacity of both airlines on the specific route.\n\nThe agreement, which is subject to approval by the relevant competition authorities and regulatory bodies in the respective countries, is planned to take effect in the Winter 2025/2026 schedule period depending on the completion of the approval processes. The agreement is set for a term of 3 years, with an optional extension of 2 years.\n\nConsidering the uncertainties due to the process not yet being finalized and the potential impact on investor decisions, our Board of Directors decided to postpone the public disclosure of the agreement, resolved on 16.05.2025, in accordance with Article 6 of the Capital Markets Board's Communiqué on Material Events (II-15.1) in order to protect our Company's legitimate interests and to prevent any adverse effect on the process.\n\nThis announcement is being made due to the signing of the agreement.\n\nRespectfully announced to the public. \n\n\n\nWe proclaim that our above disclosure is in conformity with the principles set down in “Material Events Communiqué” of Capital Markets Board, and it fully reflects all information coming to our knowledge on the subject matter thereof, and it is in conformity with our books, records and documents, and all reasonable efforts have been shown by our Company in order to obtain all information fully and accurately about the subject matter thereof, and we’re personally liable for the disclosures.",
-    "publication_date": "2025-05-16T00:00:00",
+    "publication_date": "2025-06-04T11:13:15",
+    "timestamp_field": "2025-06-04 11:13:15",
     "found_dates": [
       "16.05.2025"
     ],
@@ -38,18 +183,162 @@
       "timestamp": "2025-06-04 11:13:15",
       "url": "https://www.kap.org.tr/en/Bildirim/1444201-1442313-1442222-1442091-1440808-1440807-1440806-1440796-1440782"
     },
-    "target_trading_date": "2025-05-19T00:00:00+03:00",
-    "price_data": null,
-    "price_change_absolute": null,
-    "price_change_percentage": null,
-    "direction": null,
-    "processing_timestamp": "2025-06-04T13:18:19.664876"
+    "target_trading_date": "2025-06-04T00:00:00+03:00",
+    "price_data": {
+      "yahoo_symbol": "THYAO.IS",
+      "target_date": "2025-06-04",
+      "actual_target_date": "2025-06-04",
+      "actual_previous_date": "2025-06-03",
+      "target_price": 287.0,
+      "previous_price": 283.75,
+      "price_data": {
+        "2025-05-20": {
+          "Open": 293.75,
+          "High": 293.75,
+          "Low": 286.0,
+          "Close": 286.75,
+          "Volume": 28204042,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        "2025-05-21": {
+          "Open": 286.75,
+          "High": 287.0,
+          "Low": 279.75,
+          "Close": 279.75,
+          "Volume": 42495427,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        "2025-05-22": {
+          "Open": 283.5,
+          "High": 287.5,
+          "Low": 278.25,
+          "Close": 284.25,
+          "Volume": 49323964,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        "2025-05-23": {
+          "Open": 283.5,
+          "High": 286.25,
+          "Low": 279.75,
+          "Close": 279.75,
+          "Volume": 35288228,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        "2025-05-26": {
+          "Open": 282.5,
+          "High": 282.75,
+          "Low": 279.25,
+          "Close": 280.0,
+          "Volume": 25342423,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        "2025-05-27": {
+          "Open": 280.5,
+          "High": 283.0,
+          "Low": 275.0,
+          "Close": 275.0,
+          "Volume": 26579753,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        "2025-05-28": {
+          "Open": 275.5,
+          "High": 279.0,
+          "Low": 274.5,
+          "Close": 276.5,
+          "Volume": 21458274,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        "2025-05-29": {
+          "Open": 278.75,
+          "High": 281.0,
+          "Low": 277.25,
+          "Close": 278.5,
+          "Volume": 24116391,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        "2025-05-30": {
+          "Open": 279.0,
+          "High": 280.25,
+          "Low": 273.0,
+          "Close": 273.25,
+          "Volume": 24838082,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        "2025-06-02": {
+          "Open": 272.5,
+          "High": 276.5,
+          "Low": 272.0,
+          "Close": 275.75,
+          "Volume": 23231977,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        "2025-06-03": {
+          "Open": 278.0,
+          "High": 284.25,
+          "Low": 277.75,
+          "Close": 283.75,
+          "Volume": 22246363,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        "2025-06-04": {
+          "Open": 283.25,
+          "High": 287.5,
+          "Low": 281.75,
+          "Close": 287.0,
+          "Volume": 21146096,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        "2025-06-05": {
+          "Open": 285.75,
+          "High": 287.0,
+          "Low": 284.75,
+          "Close": 286.0,
+          "Volume": 3041826,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        }
+      },
+      "data_available": true,
+      "available_dates": [
+        "2025-05-20",
+        "2025-05-21",
+        "2025-05-22",
+        "2025-05-23",
+        "2025-05-26",
+        "2025-05-27",
+        "2025-05-28",
+        "2025-05-29",
+        "2025-05-30",
+        "2025-06-02",
+        "2025-06-03",
+        "2025-06-04",
+        "2025-06-05"
+      ],
+      "date_range_requested": "2025-05-20 to 2025-06-05"
+    },
+    "price_change_absolute": 3.25,
+    "price_change_percentage": 1.145374449339207,
+    "direction": 1,
+    "processing_timestamp": "2025-06-05T11:27:25.790754"
   },
   {
-    "file_path": "notification_1440796.json",
+    "file_path": "thyao_notifications\\notification_1440796.json",
     "stock_code": "THYAO",
     "content": "Summary Info\nA Joint Business Agreement with Thai Airways\nRelated Companies\n[]\nRelated Funds\n[]\noda_MaterialEventDisclosureGeneralAbstract|\nMaterial Event Disclosure General\noda_UpdateAnnouncementFlag|\n  Update Notification Flag\nHayır (No)\noda_CorrectionAnnouncementFlag|\n  Correction Notification Flag\nHayır (No)\noda_DateOfThePreviousNotificationAboutTheSameSubject|\n  Date Of The Previous Notification About The Same Subject\n-\noda_DelayedAnnouncementFlag|\n  Postponed Notification Flag\nEvet (Yes)\noda_AnnouncementContentSection|\n  Announcement Content\noda_ExplanationSection|\n  Explanations\noda_ExplanationTextBlock|\n\n\n\n\n\nA Joint Business Agreement (JBA) based on a revenue-sharing model has been signed between our Company and Thai Airways on the Istanbul–Bangkok route. Through this agreement, the aim is to maximize passenger numbers and revenue by jointly utilizing the capacity of both airlines on the specific route.\n\nThe agreement, which is subject to approval by the relevant competition authorities and regulatory bodies in the respective countries, is planned to take effect in the Winter 2025/2026 schedule period depending on the completion of the approval processes. The agreement is set for a term of 3 years, with an optional extension of 2 years.\n\nConsidering the uncertainties due to the process not yet being finalized and the potential impact on investor decisions, our Board of Directors decided to postpone the public disclosure of the agreement, resolved on 16.05.2025, in accordance with Article 6 of the Capital Markets Board's Communiqué on Material Events (II-15.1) in order to protect our Company's legitimate interests and to prevent any adverse effect on the process.\n\nThis announcement is being made due to the signing of the agreement.\n\nRespectfully announced to the public. \n\n\n\nWe proclaim that our above disclosure is in conformity with the principles set down in “Material Events Communiqué” of Capital Markets Board, and it fully reflects all information coming to our knowledge on the subject matter thereof, and it is in conformity with our books, records and documents, and all reasonable efforts have been shown by our Company in order to obtain all information fully and accurately about the subject matter thereof, and we’re personally liable for the disclosures.",
-    "publication_date": "2025-05-16T00:00:00",
+    "publication_date": "2025-06-04T11:13:07",
+    "timestamp_field": "2025-06-04 11:13:07",
     "found_dates": [
       "16.05.2025"
     ],
@@ -61,18 +350,162 @@
       "timestamp": "2025-06-04 11:13:07",
       "url": "https://www.kap.org.tr/en/Bildirim/1444201-1442313-1442222-1442091-1440808-1440807-1440806-1440796"
     },
-    "target_trading_date": "2025-05-19T00:00:00+03:00",
-    "price_data": null,
-    "price_change_absolute": null,
-    "price_change_percentage": null,
-    "direction": null,
-    "processing_timestamp": "2025-06-04T13:18:19.664876"
+    "target_trading_date": "2025-06-04T00:00:00+03:00",
+    "price_data": {
+      "yahoo_symbol": "THYAO.IS",
+      "target_date": "2025-06-04",
+      "actual_target_date": "2025-06-04",
+      "actual_previous_date": "2025-06-03",
+      "target_price": 287.0,
+      "previous_price": 283.75,
+      "price_data": {
+        "2025-05-20": {
+          "Open": 293.75,
+          "High": 293.75,
+          "Low": 286.0,
+          "Close": 286.75,
+          "Volume": 28204042,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        "2025-05-21": {
+          "Open": 286.75,
+          "High": 287.0,
+          "Low": 279.75,
+          "Close": 279.75,
+          "Volume": 42495427,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        "2025-05-22": {
+          "Open": 283.5,
+          "High": 287.5,
+          "Low": 278.25,
+          "Close": 284.25,
+          "Volume": 49323964,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        "2025-05-23": {
+          "Open": 283.5,
+          "High": 286.25,
+          "Low": 279.75,
+          "Close": 279.75,
+          "Volume": 35288228,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        "2025-05-26": {
+          "Open": 282.5,
+          "High": 282.75,
+          "Low": 279.25,
+          "Close": 280.0,
+          "Volume": 25342423,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        "2025-05-27": {
+          "Open": 280.5,
+          "High": 283.0,
+          "Low": 275.0,
+          "Close": 275.0,
+          "Volume": 26579753,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        "2025-05-28": {
+          "Open": 275.5,
+          "High": 279.0,
+          "Low": 274.5,
+          "Close": 276.5,
+          "Volume": 21458274,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        "2025-05-29": {
+          "Open": 278.75,
+          "High": 281.0,
+          "Low": 277.25,
+          "Close": 278.5,
+          "Volume": 24116391,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        "2025-05-30": {
+          "Open": 279.0,
+          "High": 280.25,
+          "Low": 273.0,
+          "Close": 273.25,
+          "Volume": 24838082,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        "2025-06-02": {
+          "Open": 272.5,
+          "High": 276.5,
+          "Low": 272.0,
+          "Close": 275.75,
+          "Volume": 23231977,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        "2025-06-03": {
+          "Open": 278.0,
+          "High": 284.25,
+          "Low": 277.75,
+          "Close": 283.75,
+          "Volume": 22246363,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        "2025-06-04": {
+          "Open": 283.25,
+          "High": 287.5,
+          "Low": 281.75,
+          "Close": 287.0,
+          "Volume": 21146096,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        "2025-06-05": {
+          "Open": 285.75,
+          "High": 287.0,
+          "Low": 284.75,
+          "Close": 286.0,
+          "Volume": 3041826,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        }
+      },
+      "data_available": true,
+      "available_dates": [
+        "2025-05-20",
+        "2025-05-21",
+        "2025-05-22",
+        "2025-05-23",
+        "2025-05-26",
+        "2025-05-27",
+        "2025-05-28",
+        "2025-05-29",
+        "2025-05-30",
+        "2025-06-02",
+        "2025-06-03",
+        "2025-06-04",
+        "2025-06-05"
+      ],
+      "date_range_requested": "2025-05-20 to 2025-06-05"
+    },
+    "price_change_absolute": 3.25,
+    "price_change_percentage": 1.145374449339207,
+    "direction": 1,
+    "processing_timestamp": "2025-06-05T11:27:26.171949"
   },
   {
-    "file_path": "notification_1440806.json",
+    "file_path": "thyao_notifications\\notification_1440806.json",
     "stock_code": "THYAO",
     "content": "Summary Info\nA Joint Business Agreement with Thai Airways\nRelated Companies\n[]\nRelated Funds\n[]\noda_MaterialEventDisclosureGeneralAbstract|\nMaterial Event Disclosure General\noda_UpdateAnnouncementFlag|\n  Update Notification Flag\nHayır (No)\noda_CorrectionAnnouncementFlag|\n  Correction Notification Flag\nHayır (No)\noda_DateOfThePreviousNotificationAboutTheSameSubject|\n  Date Of The Previous Notification About The Same Subject\n-\noda_DelayedAnnouncementFlag|\n  Postponed Notification Flag\nEvet (Yes)\noda_AnnouncementContentSection|\n  Announcement Content\noda_ExplanationSection|\n  Explanations\noda_ExplanationTextBlock|\n\n\n\n\n\nA Joint Business Agreement (JBA) based on a revenue-sharing model has been signed between our Company and Thai Airways on the Istanbul–Bangkok route. Through this agreement, the aim is to maximize passenger numbers and revenue by jointly utilizing the capacity of both airlines on the specific route.\n\nThe agreement, which is subject to approval by the relevant competition authorities and regulatory bodies in the respective countries, is planned to take effect in the Winter 2025/2026 schedule period depending on the completion of the approval processes. The agreement is set for a term of 3 years, with an optional extension of 2 years.\n\nConsidering the uncertainties due to the process not yet being finalized and the potential impact on investor decisions, our Board of Directors decided to postpone the public disclosure of the agreement, resolved on 16.05.2025, in accordance with Article 6 of the Capital Markets Board's Communiqué on Material Events (II-15.1) in order to protect our Company's legitimate interests and to prevent any adverse effect on the process.\n\nThis announcement is being made due to the signing of the agreement.\n\nRespectfully announced to the public. \n\n\n\nWe proclaim that our above disclosure is in conformity with the principles set down in “Material Events Communiqué” of Capital Markets Board, and it fully reflects all information coming to our knowledge on the subject matter thereof, and it is in conformity with our books, records and documents, and all reasonable efforts have been shown by our Company in order to obtain all information fully and accurately about the subject matter thereof, and we’re personally liable for the disclosures.",
-    "publication_date": "2025-05-16T00:00:00",
+    "publication_date": "2025-06-04T11:12:59",
+    "timestamp_field": "2025-06-04 11:12:59",
     "found_dates": [
       "16.05.2025"
     ],
@@ -84,18 +517,162 @@
       "timestamp": "2025-06-04 11:12:59",
       "url": "https://www.kap.org.tr/en/Bildirim/1444201-1442313-1442222-1442091-1440808-1440807-1440806"
     },
-    "target_trading_date": "2025-05-19T00:00:00+03:00",
-    "price_data": null,
-    "price_change_absolute": null,
-    "price_change_percentage": null,
-    "direction": null,
-    "processing_timestamp": "2025-06-04T13:18:19.664876"
+    "target_trading_date": "2025-06-04T00:00:00+03:00",
+    "price_data": {
+      "yahoo_symbol": "THYAO.IS",
+      "target_date": "2025-06-04",
+      "actual_target_date": "2025-06-04",
+      "actual_previous_date": "2025-06-03",
+      "target_price": 287.0,
+      "previous_price": 283.75,
+      "price_data": {
+        "2025-05-20": {
+          "Open": 293.75,
+          "High": 293.75,
+          "Low": 286.0,
+          "Close": 286.75,
+          "Volume": 28204042,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        "2025-05-21": {
+          "Open": 286.75,
+          "High": 287.0,
+          "Low": 279.75,
+          "Close": 279.75,
+          "Volume": 42495427,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        "2025-05-22": {
+          "Open": 283.5,
+          "High": 287.5,
+          "Low": 278.25,
+          "Close": 284.25,
+          "Volume": 49323964,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        "2025-05-23": {
+          "Open": 283.5,
+          "High": 286.25,
+          "Low": 279.75,
+          "Close": 279.75,
+          "Volume": 35288228,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        "2025-05-26": {
+          "Open": 282.5,
+          "High": 282.75,
+          "Low": 279.25,
+          "Close": 280.0,
+          "Volume": 25342423,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        "2025-05-27": {
+          "Open": 280.5,
+          "High": 283.0,
+          "Low": 275.0,
+          "Close": 275.0,
+          "Volume": 26579753,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        "2025-05-28": {
+          "Open": 275.5,
+          "High": 279.0,
+          "Low": 274.5,
+          "Close": 276.5,
+          "Volume": 21458274,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        "2025-05-29": {
+          "Open": 278.75,
+          "High": 281.0,
+          "Low": 277.25,
+          "Close": 278.5,
+          "Volume": 24116391,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        "2025-05-30": {
+          "Open": 279.0,
+          "High": 280.25,
+          "Low": 273.0,
+          "Close": 273.25,
+          "Volume": 24838082,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        "2025-06-02": {
+          "Open": 272.5,
+          "High": 276.5,
+          "Low": 272.0,
+          "Close": 275.75,
+          "Volume": 23231977,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        "2025-06-03": {
+          "Open": 278.0,
+          "High": 284.25,
+          "Low": 277.75,
+          "Close": 283.75,
+          "Volume": 22246363,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        "2025-06-04": {
+          "Open": 283.25,
+          "High": 287.5,
+          "Low": 281.75,
+          "Close": 287.0,
+          "Volume": 21146096,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        "2025-06-05": {
+          "Open": 285.75,
+          "High": 287.0,
+          "Low": 284.75,
+          "Close": 286.0,
+          "Volume": 3041826,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        }
+      },
+      "data_available": true,
+      "available_dates": [
+        "2025-05-20",
+        "2025-05-21",
+        "2025-05-22",
+        "2025-05-23",
+        "2025-05-26",
+        "2025-05-27",
+        "2025-05-28",
+        "2025-05-29",
+        "2025-05-30",
+        "2025-06-02",
+        "2025-06-03",
+        "2025-06-04",
+        "2025-06-05"
+      ],
+      "date_range_requested": "2025-05-20 to 2025-06-05"
+    },
+    "price_change_absolute": 3.25,
+    "price_change_percentage": 1.145374449339207,
+    "direction": 1,
+    "processing_timestamp": "2025-06-05T11:27:26.532885"
   },
   {
-    "file_path": "notification_1440807.json",
+    "file_path": "thyao_notifications\\notification_1440807.json",
     "stock_code": "THYAO",
     "content": "Summary Info\nA Joint Business Agreement with Thai Airways\nRelated Companies\n[]\nRelated Funds\n[]\noda_MaterialEventDisclosureGeneralAbstract|\nMaterial Event Disclosure General\noda_UpdateAnnouncementFlag|\n  Update Notification Flag\nHayır (No)\noda_CorrectionAnnouncementFlag|\n  Correction Notification Flag\nHayır (No)\noda_DateOfThePreviousNotificationAboutTheSameSubject|\n  Date Of The Previous Notification About The Same Subject\n-\noda_DelayedAnnouncementFlag|\n  Postponed Notification Flag\nEvet (Yes)\noda_AnnouncementContentSection|\n  Announcement Content\noda_ExplanationSection|\n  Explanations\noda_ExplanationTextBlock|\n\n\n\n\n\nA Joint Business Agreement (JBA) based on a revenue-sharing model has been signed between our Company and Thai Airways on the Istanbul–Bangkok route. Through this agreement, the aim is to maximize passenger numbers and revenue by jointly utilizing the capacity of both airlines on the specific route.\n\nThe agreement, which is subject to approval by the relevant competition authorities and regulatory bodies in the respective countries, is planned to take effect in the Winter 2025/2026 schedule period depending on the completion of the approval processes. The agreement is set for a term of 3 years, with an optional extension of 2 years.\n\nConsidering the uncertainties due to the process not yet being finalized and the potential impact on investor decisions, our Board of Directors decided to postpone the public disclosure of the agreement, resolved on 16.05.2025, in accordance with Article 6 of the Capital Markets Board's Communiqué on Material Events (II-15.1) in order to protect our Company's legitimate interests and to prevent any adverse effect on the process.\n\nThis announcement is being made due to the signing of the agreement.\n\nRespectfully announced to the public. \n\n\n\nWe proclaim that our above disclosure is in conformity with the principles set down in “Material Events Communiqué” of Capital Markets Board, and it fully reflects all information coming to our knowledge on the subject matter thereof, and it is in conformity with our books, records and documents, and all reasonable efforts have been shown by our Company in order to obtain all information fully and accurately about the subject matter thereof, and we’re personally liable for the disclosures.",
-    "publication_date": "2025-05-16T00:00:00",
+    "publication_date": "2025-06-04T11:12:51",
+    "timestamp_field": "2025-06-04 11:12:51",
     "found_dates": [
       "16.05.2025"
     ],
@@ -107,18 +684,162 @@
       "timestamp": "2025-06-04 11:12:51",
       "url": "https://www.kap.org.tr/en/Bildirim/1444201-1442313-1442222-1442091-1440808-1440807"
     },
-    "target_trading_date": "2025-05-19T00:00:00+03:00",
-    "price_data": null,
-    "price_change_absolute": null,
-    "price_change_percentage": null,
-    "direction": null,
-    "processing_timestamp": "2025-06-04T13:18:19.664876"
+    "target_trading_date": "2025-06-04T00:00:00+03:00",
+    "price_data": {
+      "yahoo_symbol": "THYAO.IS",
+      "target_date": "2025-06-04",
+      "actual_target_date": "2025-06-04",
+      "actual_previous_date": "2025-06-03",
+      "target_price": 287.0,
+      "previous_price": 283.75,
+      "price_data": {
+        "2025-05-20": {
+          "Open": 293.75,
+          "High": 293.75,
+          "Low": 286.0,
+          "Close": 286.75,
+          "Volume": 28204042,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        "2025-05-21": {
+          "Open": 286.75,
+          "High": 287.0,
+          "Low": 279.75,
+          "Close": 279.75,
+          "Volume": 42495427,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        "2025-05-22": {
+          "Open": 283.5,
+          "High": 287.5,
+          "Low": 278.25,
+          "Close": 284.25,
+          "Volume": 49323964,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        "2025-05-23": {
+          "Open": 283.5,
+          "High": 286.25,
+          "Low": 279.75,
+          "Close": 279.75,
+          "Volume": 35288228,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        "2025-05-26": {
+          "Open": 282.5,
+          "High": 282.75,
+          "Low": 279.25,
+          "Close": 280.0,
+          "Volume": 25342423,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        "2025-05-27": {
+          "Open": 280.5,
+          "High": 283.0,
+          "Low": 275.0,
+          "Close": 275.0,
+          "Volume": 26579753,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        "2025-05-28": {
+          "Open": 275.5,
+          "High": 279.0,
+          "Low": 274.5,
+          "Close": 276.5,
+          "Volume": 21458274,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        "2025-05-29": {
+          "Open": 278.75,
+          "High": 281.0,
+          "Low": 277.25,
+          "Close": 278.5,
+          "Volume": 24116391,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        "2025-05-30": {
+          "Open": 279.0,
+          "High": 280.25,
+          "Low": 273.0,
+          "Close": 273.25,
+          "Volume": 24838082,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        "2025-06-02": {
+          "Open": 272.5,
+          "High": 276.5,
+          "Low": 272.0,
+          "Close": 275.75,
+          "Volume": 23231977,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        "2025-06-03": {
+          "Open": 278.0,
+          "High": 284.25,
+          "Low": 277.75,
+          "Close": 283.75,
+          "Volume": 22246363,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        "2025-06-04": {
+          "Open": 283.25,
+          "High": 287.5,
+          "Low": 281.75,
+          "Close": 287.0,
+          "Volume": 21146096,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        "2025-06-05": {
+          "Open": 285.75,
+          "High": 287.0,
+          "Low": 284.75,
+          "Close": 286.0,
+          "Volume": 3041826,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        }
+      },
+      "data_available": true,
+      "available_dates": [
+        "2025-05-20",
+        "2025-05-21",
+        "2025-05-22",
+        "2025-05-23",
+        "2025-05-26",
+        "2025-05-27",
+        "2025-05-28",
+        "2025-05-29",
+        "2025-05-30",
+        "2025-06-02",
+        "2025-06-03",
+        "2025-06-04",
+        "2025-06-05"
+      ],
+      "date_range_requested": "2025-05-20 to 2025-06-05"
+    },
+    "price_change_absolute": 3.25,
+    "price_change_percentage": 1.145374449339207,
+    "direction": 1,
+    "processing_timestamp": "2025-06-05T11:27:26.795880"
   },
   {
-    "file_path": "notification_1440808.json",
+    "file_path": "thyao_notifications\\notification_1440808.json",
     "stock_code": "THYAO",
     "content": "Summary Info\nA Joint Business Agreement with Thai Airways\nRelated Companies\n[]\nRelated Funds\n[]\noda_MaterialEventDisclosureGeneralAbstract|\nMaterial Event Disclosure General\noda_UpdateAnnouncementFlag|\n  Update Notification Flag\nHayır (No)\noda_CorrectionAnnouncementFlag|\n  Correction Notification Flag\nHayır (No)\noda_DateOfThePreviousNotificationAboutTheSameSubject|\n  Date Of The Previous Notification About The Same Subject\n-\noda_DelayedAnnouncementFlag|\n  Postponed Notification Flag\nEvet (Yes)\noda_AnnouncementContentSection|\n  Announcement Content\noda_ExplanationSection|\n  Explanations\noda_ExplanationTextBlock|\n\n\n\n\n\nA Joint Business Agreement (JBA) based on a revenue-sharing model has been signed between our Company and Thai Airways on the Istanbul–Bangkok route. Through this agreement, the aim is to maximize passenger numbers and revenue by jointly utilizing the capacity of both airlines on the specific route.\n\nThe agreement, which is subject to approval by the relevant competition authorities and regulatory bodies in the respective countries, is planned to take effect in the Winter 2025/2026 schedule period depending on the completion of the approval processes. The agreement is set for a term of 3 years, with an optional extension of 2 years.\n\nConsidering the uncertainties due to the process not yet being finalized and the potential impact on investor decisions, our Board of Directors decided to postpone the public disclosure of the agreement, resolved on 16.05.2025, in accordance with Article 6 of the Capital Markets Board's Communiqué on Material Events (II-15.1) in order to protect our Company's legitimate interests and to prevent any adverse effect on the process.\n\nThis announcement is being made due to the signing of the agreement.\n\nRespectfully announced to the public. \n\n\n\nWe proclaim that our above disclosure is in conformity with the principles set down in “Material Events Communiqué” of Capital Markets Board, and it fully reflects all information coming to our knowledge on the subject matter thereof, and it is in conformity with our books, records and documents, and all reasonable efforts have been shown by our Company in order to obtain all information fully and accurately about the subject matter thereof, and we’re personally liable for the disclosures.",
-    "publication_date": "2025-05-16T00:00:00",
+    "publication_date": "2025-06-04T11:12:42",
+    "timestamp_field": "2025-06-04 11:12:42",
     "found_dates": [
       "16.05.2025"
     ],
@@ -130,18 +851,162 @@
       "timestamp": "2025-06-04 11:12:42",
       "url": "https://www.kap.org.tr/en/Bildirim/1444201-1442313-1442222-1442091-1440808"
     },
-    "target_trading_date": "2025-05-19T00:00:00+03:00",
-    "price_data": null,
-    "price_change_absolute": null,
-    "price_change_percentage": null,
-    "direction": null,
-    "processing_timestamp": "2025-06-04T13:18:19.664876"
+    "target_trading_date": "2025-06-04T00:00:00+03:00",
+    "price_data": {
+      "yahoo_symbol": "THYAO.IS",
+      "target_date": "2025-06-04",
+      "actual_target_date": "2025-06-04",
+      "actual_previous_date": "2025-06-03",
+      "target_price": 287.0,
+      "previous_price": 283.75,
+      "price_data": {
+        "2025-05-20": {
+          "Open": 293.75,
+          "High": 293.75,
+          "Low": 286.0,
+          "Close": 286.75,
+          "Volume": 28204042,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        "2025-05-21": {
+          "Open": 286.75,
+          "High": 287.0,
+          "Low": 279.75,
+          "Close": 279.75,
+          "Volume": 42495427,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        "2025-05-22": {
+          "Open": 283.5,
+          "High": 287.5,
+          "Low": 278.25,
+          "Close": 284.25,
+          "Volume": 49323964,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        "2025-05-23": {
+          "Open": 283.5,
+          "High": 286.25,
+          "Low": 279.75,
+          "Close": 279.75,
+          "Volume": 35288228,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        "2025-05-26": {
+          "Open": 282.5,
+          "High": 282.75,
+          "Low": 279.25,
+          "Close": 280.0,
+          "Volume": 25342423,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        "2025-05-27": {
+          "Open": 280.5,
+          "High": 283.0,
+          "Low": 275.0,
+          "Close": 275.0,
+          "Volume": 26579753,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        "2025-05-28": {
+          "Open": 275.5,
+          "High": 279.0,
+          "Low": 274.5,
+          "Close": 276.5,
+          "Volume": 21458274,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        "2025-05-29": {
+          "Open": 278.75,
+          "High": 281.0,
+          "Low": 277.25,
+          "Close": 278.5,
+          "Volume": 24116391,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        "2025-05-30": {
+          "Open": 279.0,
+          "High": 280.25,
+          "Low": 273.0,
+          "Close": 273.25,
+          "Volume": 24838082,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        "2025-06-02": {
+          "Open": 272.5,
+          "High": 276.5,
+          "Low": 272.0,
+          "Close": 275.75,
+          "Volume": 23231977,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        "2025-06-03": {
+          "Open": 278.0,
+          "High": 284.25,
+          "Low": 277.75,
+          "Close": 283.75,
+          "Volume": 22246363,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        "2025-06-04": {
+          "Open": 283.25,
+          "High": 287.5,
+          "Low": 281.75,
+          "Close": 287.0,
+          "Volume": 21146096,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        "2025-06-05": {
+          "Open": 285.75,
+          "High": 287.0,
+          "Low": 284.75,
+          "Close": 286.0,
+          "Volume": 3041826,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        }
+      },
+      "data_available": true,
+      "available_dates": [
+        "2025-05-20",
+        "2025-05-21",
+        "2025-05-22",
+        "2025-05-23",
+        "2025-05-26",
+        "2025-05-27",
+        "2025-05-28",
+        "2025-05-29",
+        "2025-05-30",
+        "2025-06-02",
+        "2025-06-03",
+        "2025-06-04",
+        "2025-06-05"
+      ],
+      "date_range_requested": "2025-05-20 to 2025-06-05"
+    },
+    "price_change_absolute": 3.25,
+    "price_change_percentage": 1.145374449339207,
+    "direction": 1,
+    "processing_timestamp": "2025-06-05T11:27:27.195882"
   },
   {
-    "file_path": "notification_1442091.json",
+    "file_path": "thyao_notifications\\notification_1442091.json",
     "stock_code": "THYAO",
     "content": "Summary Info\nA Joint Business Agreement with Thai Airways\nRelated Companies\n[]\nRelated Funds\n[]\noda_MaterialEventDisclosureGeneralAbstract|\nMaterial Event Disclosure General\noda_UpdateAnnouncementFlag|\n  Update Notification Flag\nHayır (No)\noda_CorrectionAnnouncementFlag|\n  Correction Notification Flag\nHayır (No)\noda_DateOfThePreviousNotificationAboutTheSameSubject|\n  Date Of The Previous Notification About The Same Subject\n-\noda_DelayedAnnouncementFlag|\n  Postponed Notification Flag\nEvet (Yes)\noda_AnnouncementContentSection|\n  Announcement Content\noda_ExplanationSection|\n  Explanations\noda_ExplanationTextBlock|\n\n\n\n\n\nA Joint Business Agreement (JBA) based on a revenue-sharing model has been signed between our Company and Thai Airways on the Istanbul–Bangkok route. Through this agreement, the aim is to maximize passenger numbers and revenue by jointly utilizing the capacity of both airlines on the specific route.\n\nThe agreement, which is subject to approval by the relevant competition authorities and regulatory bodies in the respective countries, is planned to take effect in the Winter 2025/2026 schedule period depending on the completion of the approval processes. The agreement is set for a term of 3 years, with an optional extension of 2 years.\n\nConsidering the uncertainties due to the process not yet being finalized and the potential impact on investor decisions, our Board of Directors decided to postpone the public disclosure of the agreement, resolved on 16.05.2025, in accordance with Article 6 of the Capital Markets Board's Communiqué on Material Events (II-15.1) in order to protect our Company's legitimate interests and to prevent any adverse effect on the process.\n\nThis announcement is being made due to the signing of the agreement.\n\nRespectfully announced to the public. \n\n\n\nWe proclaim that our above disclosure is in conformity with the principles set down in “Material Events Communiqué” of Capital Markets Board, and it fully reflects all information coming to our knowledge on the subject matter thereof, and it is in conformity with our books, records and documents, and all reasonable efforts have been shown by our Company in order to obtain all information fully and accurately about the subject matter thereof, and we’re personally liable for the disclosures.",
-    "publication_date": "2025-05-16T00:00:00",
+    "publication_date": "2025-06-04T11:12:34",
+    "timestamp_field": "2025-06-04 11:12:34",
     "found_dates": [
       "16.05.2025"
     ],
@@ -153,18 +1018,162 @@
       "timestamp": "2025-06-04 11:12:34",
       "url": "https://www.kap.org.tr/en/Bildirim/1444201-1442313-1442222-1442091"
     },
-    "target_trading_date": "2025-05-19T00:00:00+03:00",
-    "price_data": null,
-    "price_change_absolute": null,
-    "price_change_percentage": null,
-    "direction": null,
-    "processing_timestamp": "2025-06-04T13:18:19.678884"
+    "target_trading_date": "2025-06-04T00:00:00+03:00",
+    "price_data": {
+      "yahoo_symbol": "THYAO.IS",
+      "target_date": "2025-06-04",
+      "actual_target_date": "2025-06-04",
+      "actual_previous_date": "2025-06-03",
+      "target_price": 287.0,
+      "previous_price": 283.75,
+      "price_data": {
+        "2025-05-20": {
+          "Open": 293.75,
+          "High": 293.75,
+          "Low": 286.0,
+          "Close": 286.75,
+          "Volume": 28204042,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        "2025-05-21": {
+          "Open": 286.75,
+          "High": 287.0,
+          "Low": 279.75,
+          "Close": 279.75,
+          "Volume": 42495427,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        "2025-05-22": {
+          "Open": 283.5,
+          "High": 287.5,
+          "Low": 278.25,
+          "Close": 284.25,
+          "Volume": 49323964,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        "2025-05-23": {
+          "Open": 283.5,
+          "High": 286.25,
+          "Low": 279.75,
+          "Close": 279.75,
+          "Volume": 35288228,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        "2025-05-26": {
+          "Open": 282.5,
+          "High": 282.75,
+          "Low": 279.25,
+          "Close": 280.0,
+          "Volume": 25342423,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        "2025-05-27": {
+          "Open": 280.5,
+          "High": 283.0,
+          "Low": 275.0,
+          "Close": 275.0,
+          "Volume": 26579753,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        "2025-05-28": {
+          "Open": 275.5,
+          "High": 279.0,
+          "Low": 274.5,
+          "Close": 276.5,
+          "Volume": 21458274,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        "2025-05-29": {
+          "Open": 278.75,
+          "High": 281.0,
+          "Low": 277.25,
+          "Close": 278.5,
+          "Volume": 24116391,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        "2025-05-30": {
+          "Open": 279.0,
+          "High": 280.25,
+          "Low": 273.0,
+          "Close": 273.25,
+          "Volume": 24838082,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        "2025-06-02": {
+          "Open": 272.5,
+          "High": 276.5,
+          "Low": 272.0,
+          "Close": 275.75,
+          "Volume": 23231977,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        "2025-06-03": {
+          "Open": 278.0,
+          "High": 284.25,
+          "Low": 277.75,
+          "Close": 283.75,
+          "Volume": 22246363,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        "2025-06-04": {
+          "Open": 283.25,
+          "High": 287.5,
+          "Low": 281.75,
+          "Close": 287.0,
+          "Volume": 21146096,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        "2025-06-05": {
+          "Open": 285.75,
+          "High": 287.0,
+          "Low": 284.75,
+          "Close": 286.0,
+          "Volume": 3041826,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        }
+      },
+      "data_available": true,
+      "available_dates": [
+        "2025-05-20",
+        "2025-05-21",
+        "2025-05-22",
+        "2025-05-23",
+        "2025-05-26",
+        "2025-05-27",
+        "2025-05-28",
+        "2025-05-29",
+        "2025-05-30",
+        "2025-06-02",
+        "2025-06-03",
+        "2025-06-04",
+        "2025-06-05"
+      ],
+      "date_range_requested": "2025-05-20 to 2025-06-05"
+    },
+    "price_change_absolute": 3.25,
+    "price_change_percentage": 1.145374449339207,
+    "direction": 1,
+    "processing_timestamp": "2025-06-05T11:27:27.712664"
   },
   {
-    "file_path": "notification_1442222.json",
+    "file_path": "thyao_notifications\\notification_1442222.json",
     "stock_code": "THYAO",
     "content": "Summary Info\nA Joint Business Agreement with Thai Airways\nRelated Companies\n[]\nRelated Funds\n[]\noda_MaterialEventDisclosureGeneralAbstract|\nMaterial Event Disclosure General\noda_UpdateAnnouncementFlag|\n  Update Notification Flag\nHayır (No)\noda_CorrectionAnnouncementFlag|\n  Correction Notification Flag\nHayır (No)\noda_DateOfThePreviousNotificationAboutTheSameSubject|\n  Date Of The Previous Notification About The Same Subject\n-\noda_DelayedAnnouncementFlag|\n  Postponed Notification Flag\nEvet (Yes)\noda_AnnouncementContentSection|\n  Announcement Content\noda_ExplanationSection|\n  Explanations\noda_ExplanationTextBlock|\n\n\n\n\n\nA Joint Business Agreement (JBA) based on a revenue-sharing model has been signed between our Company and Thai Airways on the Istanbul–Bangkok route. Through this agreement, the aim is to maximize passenger numbers and revenue by jointly utilizing the capacity of both airlines on the specific route.\n\nThe agreement, which is subject to approval by the relevant competition authorities and regulatory bodies in the respective countries, is planned to take effect in the Winter 2025/2026 schedule period depending on the completion of the approval processes. The agreement is set for a term of 3 years, with an optional extension of 2 years.\n\nConsidering the uncertainties due to the process not yet being finalized and the potential impact on investor decisions, our Board of Directors decided to postpone the public disclosure of the agreement, resolved on 16.05.2025, in accordance with Article 6 of the Capital Markets Board's Communiqué on Material Events (II-15.1) in order to protect our Company's legitimate interests and to prevent any adverse effect on the process.\n\nThis announcement is being made due to the signing of the agreement.\n\nRespectfully announced to the public. \n\n\n\nWe proclaim that our above disclosure is in conformity with the principles set down in “Material Events Communiqué” of Capital Markets Board, and it fully reflects all information coming to our knowledge on the subject matter thereof, and it is in conformity with our books, records and documents, and all reasonable efforts have been shown by our Company in order to obtain all information fully and accurately about the subject matter thereof, and we’re personally liable for the disclosures.",
-    "publication_date": "2025-05-16T00:00:00",
+    "publication_date": "2025-06-04T11:12:26",
+    "timestamp_field": "2025-06-04 11:12:26",
     "found_dates": [
       "16.05.2025"
     ],
@@ -176,18 +1185,162 @@
       "timestamp": "2025-06-04 11:12:26",
       "url": "https://www.kap.org.tr/en/Bildirim/1444201-1442313-1442222"
     },
-    "target_trading_date": "2025-05-19T00:00:00+03:00",
-    "price_data": null,
-    "price_change_absolute": null,
-    "price_change_percentage": null,
-    "direction": null,
-    "processing_timestamp": "2025-06-04T13:18:19.678884"
+    "target_trading_date": "2025-06-04T00:00:00+03:00",
+    "price_data": {
+      "yahoo_symbol": "THYAO.IS",
+      "target_date": "2025-06-04",
+      "actual_target_date": "2025-06-04",
+      "actual_previous_date": "2025-06-03",
+      "target_price": 287.0,
+      "previous_price": 283.75,
+      "price_data": {
+        "2025-05-20": {
+          "Open": 293.75,
+          "High": 293.75,
+          "Low": 286.0,
+          "Close": 286.75,
+          "Volume": 28204042,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        "2025-05-21": {
+          "Open": 286.75,
+          "High": 287.0,
+          "Low": 279.75,
+          "Close": 279.75,
+          "Volume": 42495427,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        "2025-05-22": {
+          "Open": 283.5,
+          "High": 287.5,
+          "Low": 278.25,
+          "Close": 284.25,
+          "Volume": 49323964,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        "2025-05-23": {
+          "Open": 283.5,
+          "High": 286.25,
+          "Low": 279.75,
+          "Close": 279.75,
+          "Volume": 35288228,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        "2025-05-26": {
+          "Open": 282.5,
+          "High": 282.75,
+          "Low": 279.25,
+          "Close": 280.0,
+          "Volume": 25342423,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        "2025-05-27": {
+          "Open": 280.5,
+          "High": 283.0,
+          "Low": 275.0,
+          "Close": 275.0,
+          "Volume": 26579753,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        "2025-05-28": {
+          "Open": 275.5,
+          "High": 279.0,
+          "Low": 274.5,
+          "Close": 276.5,
+          "Volume": 21458274,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        "2025-05-29": {
+          "Open": 278.75,
+          "High": 281.0,
+          "Low": 277.25,
+          "Close": 278.5,
+          "Volume": 24116391,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        "2025-05-30": {
+          "Open": 279.0,
+          "High": 280.25,
+          "Low": 273.0,
+          "Close": 273.25,
+          "Volume": 24838082,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        "2025-06-02": {
+          "Open": 272.5,
+          "High": 276.5,
+          "Low": 272.0,
+          "Close": 275.75,
+          "Volume": 23231977,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        "2025-06-03": {
+          "Open": 278.0,
+          "High": 284.25,
+          "Low": 277.75,
+          "Close": 283.75,
+          "Volume": 22246363,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        "2025-06-04": {
+          "Open": 283.25,
+          "High": 287.5,
+          "Low": 281.75,
+          "Close": 287.0,
+          "Volume": 21146096,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        "2025-06-05": {
+          "Open": 285.75,
+          "High": 287.0,
+          "Low": 284.75,
+          "Close": 286.0,
+          "Volume": 3041826,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        }
+      },
+      "data_available": true,
+      "available_dates": [
+        "2025-05-20",
+        "2025-05-21",
+        "2025-05-22",
+        "2025-05-23",
+        "2025-05-26",
+        "2025-05-27",
+        "2025-05-28",
+        "2025-05-29",
+        "2025-05-30",
+        "2025-06-02",
+        "2025-06-03",
+        "2025-06-04",
+        "2025-06-05"
+      ],
+      "date_range_requested": "2025-05-20 to 2025-06-05"
+    },
+    "price_change_absolute": 3.25,
+    "price_change_percentage": 1.145374449339207,
+    "direction": 1,
+    "processing_timestamp": "2025-06-05T11:27:28.011087"
   },
   {
-    "file_path": "notification_1442313.json",
+    "file_path": "thyao_notifications\\notification_1442313.json",
     "stock_code": "THYAO",
     "content": "Summary Info\nA Joint Business Agreement with Thai Airways\nRelated Companies\n[]\nRelated Funds\n[]\noda_MaterialEventDisclosureGeneralAbstract|\nMaterial Event Disclosure General\noda_UpdateAnnouncementFlag|\n  Update Notification Flag\nHayır (No)\noda_CorrectionAnnouncementFlag|\n  Correction Notification Flag\nHayır (No)\noda_DateOfThePreviousNotificationAboutTheSameSubject|\n  Date Of The Previous Notification About The Same Subject\n-\noda_DelayedAnnouncementFlag|\n  Postponed Notification Flag\nEvet (Yes)\noda_AnnouncementContentSection|\n  Announcement Content\noda_ExplanationSection|\n  Explanations\noda_ExplanationTextBlock|\n\n\n\n\n\nA Joint Business Agreement (JBA) based on a revenue-sharing model has been signed between our Company and Thai Airways on the Istanbul–Bangkok route. Through this agreement, the aim is to maximize passenger numbers and revenue by jointly utilizing the capacity of both airlines on the specific route.\n\nThe agreement, which is subject to approval by the relevant competition authorities and regulatory bodies in the respective countries, is planned to take effect in the Winter 2025/2026 schedule period depending on the completion of the approval processes. The agreement is set for a term of 3 years, with an optional extension of 2 years.\n\nConsidering the uncertainties due to the process not yet being finalized and the potential impact on investor decisions, our Board of Directors decided to postpone the public disclosure of the agreement, resolved on 16.05.2025, in accordance with Article 6 of the Capital Markets Board's Communiqué on Material Events (II-15.1) in order to protect our Company's legitimate interests and to prevent any adverse effect on the process.\n\nThis announcement is being made due to the signing of the agreement.\n\nRespectfully announced to the public. \n\n\n\nWe proclaim that our above disclosure is in conformity with the principles set down in “Material Events Communiqué” of Capital Markets Board, and it fully reflects all information coming to our knowledge on the subject matter thereof, and it is in conformity with our books, records and documents, and all reasonable efforts have been shown by our Company in order to obtain all information fully and accurately about the subject matter thereof, and we’re personally liable for the disclosures.",
-    "publication_date": "2025-05-16T00:00:00",
+    "publication_date": "2025-06-04T11:12:18",
+    "timestamp_field": "2025-06-04 11:12:18",
     "found_dates": [
       "16.05.2025"
     ],
@@ -199,18 +1352,162 @@
       "timestamp": "2025-06-04 11:12:18",
       "url": "https://www.kap.org.tr/en/Bildirim/1444201-1442313"
     },
-    "target_trading_date": "2025-05-19T00:00:00+03:00",
-    "price_data": null,
-    "price_change_absolute": null,
-    "price_change_percentage": null,
-    "direction": null,
-    "processing_timestamp": "2025-06-04T13:18:19.678884"
+    "target_trading_date": "2025-06-04T00:00:00+03:00",
+    "price_data": {
+      "yahoo_symbol": "THYAO.IS",
+      "target_date": "2025-06-04",
+      "actual_target_date": "2025-06-04",
+      "actual_previous_date": "2025-06-03",
+      "target_price": 287.0,
+      "previous_price": 283.75,
+      "price_data": {
+        "2025-05-20": {
+          "Open": 293.75,
+          "High": 293.75,
+          "Low": 286.0,
+          "Close": 286.75,
+          "Volume": 28204042,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        "2025-05-21": {
+          "Open": 286.75,
+          "High": 287.0,
+          "Low": 279.75,
+          "Close": 279.75,
+          "Volume": 42495427,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        "2025-05-22": {
+          "Open": 283.5,
+          "High": 287.5,
+          "Low": 278.25,
+          "Close": 284.25,
+          "Volume": 49323964,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        "2025-05-23": {
+          "Open": 283.5,
+          "High": 286.25,
+          "Low": 279.75,
+          "Close": 279.75,
+          "Volume": 35288228,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        "2025-05-26": {
+          "Open": 282.5,
+          "High": 282.75,
+          "Low": 279.25,
+          "Close": 280.0,
+          "Volume": 25342423,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        "2025-05-27": {
+          "Open": 280.5,
+          "High": 283.0,
+          "Low": 275.0,
+          "Close": 275.0,
+          "Volume": 26579753,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        "2025-05-28": {
+          "Open": 275.5,
+          "High": 279.0,
+          "Low": 274.5,
+          "Close": 276.5,
+          "Volume": 21458274,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        "2025-05-29": {
+          "Open": 278.75,
+          "High": 281.0,
+          "Low": 277.25,
+          "Close": 278.5,
+          "Volume": 24116391,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        "2025-05-30": {
+          "Open": 279.0,
+          "High": 280.25,
+          "Low": 273.0,
+          "Close": 273.25,
+          "Volume": 24838082,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        "2025-06-02": {
+          "Open": 272.5,
+          "High": 276.5,
+          "Low": 272.0,
+          "Close": 275.75,
+          "Volume": 23231977,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        "2025-06-03": {
+          "Open": 278.0,
+          "High": 284.25,
+          "Low": 277.75,
+          "Close": 283.75,
+          "Volume": 22246363,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        "2025-06-04": {
+          "Open": 283.25,
+          "High": 287.5,
+          "Low": 281.75,
+          "Close": 287.0,
+          "Volume": 21146096,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        "2025-06-05": {
+          "Open": 285.75,
+          "High": 287.0,
+          "Low": 284.75,
+          "Close": 286.0,
+          "Volume": 3041826,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        }
+      },
+      "data_available": true,
+      "available_dates": [
+        "2025-05-20",
+        "2025-05-21",
+        "2025-05-22",
+        "2025-05-23",
+        "2025-05-26",
+        "2025-05-27",
+        "2025-05-28",
+        "2025-05-29",
+        "2025-05-30",
+        "2025-06-02",
+        "2025-06-03",
+        "2025-06-04",
+        "2025-06-05"
+      ],
+      "date_range_requested": "2025-05-20 to 2025-06-05"
+    },
+    "price_change_absolute": 3.25,
+    "price_change_percentage": 1.145374449339207,
+    "direction": 1,
+    "processing_timestamp": "2025-06-05T11:27:28.467782"
   },
   {
-    "file_path": "notification_1444201.json",
+    "file_path": "thyao_notifications\\notification_1444201.json",
     "stock_code": "THYAO",
     "content": "Summary Info\nA Joint Business Agreement with Thai Airways\nRelated Companies\n[]\nRelated Funds\n[]\noda_MaterialEventDisclosureGeneralAbstract|\nMaterial Event Disclosure General\noda_UpdateAnnouncementFlag|\n  Update Notification Flag\nHayır (No)\noda_CorrectionAnnouncementFlag|\n  Correction Notification Flag\nHayır (No)\noda_DateOfThePreviousNotificationAboutTheSameSubject|\n  Date Of The Previous Notification About The Same Subject\n-\noda_DelayedAnnouncementFlag|\n  Postponed Notification Flag\nEvet (Yes)\noda_AnnouncementContentSection|\n  Announcement Content\noda_ExplanationSection|\n  Explanations\noda_ExplanationTextBlock|\n\n\n\n\n\nA Joint Business Agreement (JBA) based on a revenue-sharing model has been signed between our Company and Thai Airways on the Istanbul–Bangkok route. Through this agreement, the aim is to maximize passenger numbers and revenue by jointly utilizing the capacity of both airlines on the specific route.\n\nThe agreement, which is subject to approval by the relevant competition authorities and regulatory bodies in the respective countries, is planned to take effect in the Winter 2025/2026 schedule period depending on the completion of the approval processes. The agreement is set for a term of 3 years, with an optional extension of 2 years.\n\nConsidering the uncertainties due to the process not yet being finalized and the potential impact on investor decisions, our Board of Directors decided to postpone the public disclosure of the agreement, resolved on 16.05.2025, in accordance with Article 6 of the Capital Markets Board's Communiqué on Material Events (II-15.1) in order to protect our Company's legitimate interests and to prevent any adverse effect on the process.\n\nThis announcement is being made due to the signing of the agreement.\n\nRespectfully announced to the public. \n\n\n\nWe proclaim that our above disclosure is in conformity with the principles set down in “Material Events Communiqué” of Capital Markets Board, and it fully reflects all information coming to our knowledge on the subject matter thereof, and it is in conformity with our books, records and documents, and all reasonable efforts have been shown by our Company in order to obtain all information fully and accurately about the subject matter thereof, and we’re personally liable for the disclosures.",
-    "publication_date": "2025-05-16T00:00:00",
+    "publication_date": "2025-06-04T11:12:09",
+    "timestamp_field": "2025-06-04 11:12:09",
     "found_dates": [
       "16.05.2025"
     ],
@@ -222,11 +1519,154 @@
       "timestamp": "2025-06-04 11:12:09",
       "url": "https://www.kap.org.tr/en/Bildirim/1444201"
     },
-    "target_trading_date": "2025-05-19T00:00:00+03:00",
-    "price_data": null,
-    "price_change_absolute": null,
-    "price_change_percentage": null,
-    "direction": null,
-    "processing_timestamp": "2025-06-04T13:18:19.685623"
+    "target_trading_date": "2025-06-04T00:00:00+03:00",
+    "price_data": {
+      "yahoo_symbol": "THYAO.IS",
+      "target_date": "2025-06-04",
+      "actual_target_date": "2025-06-04",
+      "actual_previous_date": "2025-06-03",
+      "target_price": 287.0,
+      "previous_price": 283.75,
+      "price_data": {
+        "2025-05-20": {
+          "Open": 293.75,
+          "High": 293.75,
+          "Low": 286.0,
+          "Close": 286.75,
+          "Volume": 28204042,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        "2025-05-21": {
+          "Open": 286.75,
+          "High": 287.0,
+          "Low": 279.75,
+          "Close": 279.75,
+          "Volume": 42495427,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        "2025-05-22": {
+          "Open": 283.5,
+          "High": 287.5,
+          "Low": 278.25,
+          "Close": 284.25,
+          "Volume": 49323964,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        "2025-05-23": {
+          "Open": 283.5,
+          "High": 286.25,
+          "Low": 279.75,
+          "Close": 279.75,
+          "Volume": 35288228,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        "2025-05-26": {
+          "Open": 282.5,
+          "High": 282.75,
+          "Low": 279.25,
+          "Close": 280.0,
+          "Volume": 25342423,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        "2025-05-27": {
+          "Open": 280.5,
+          "High": 283.0,
+          "Low": 275.0,
+          "Close": 275.0,
+          "Volume": 26579753,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        "2025-05-28": {
+          "Open": 275.5,
+          "High": 279.0,
+          "Low": 274.5,
+          "Close": 276.5,
+          "Volume": 21458274,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        "2025-05-29": {
+          "Open": 278.75,
+          "High": 281.0,
+          "Low": 277.25,
+          "Close": 278.5,
+          "Volume": 24116391,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        "2025-05-30": {
+          "Open": 279.0,
+          "High": 280.25,
+          "Low": 273.0,
+          "Close": 273.25,
+          "Volume": 24838082,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        "2025-06-02": {
+          "Open": 272.5,
+          "High": 276.5,
+          "Low": 272.0,
+          "Close": 275.75,
+          "Volume": 23231977,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        "2025-06-03": {
+          "Open": 278.0,
+          "High": 284.25,
+          "Low": 277.75,
+          "Close": 283.75,
+          "Volume": 22246363,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        "2025-06-04": {
+          "Open": 283.25,
+          "High": 287.5,
+          "Low": 281.75,
+          "Close": 287.0,
+          "Volume": 21146096,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        "2025-06-05": {
+          "Open": 285.75,
+          "High": 287.0,
+          "Low": 284.75,
+          "Close": 286.0,
+          "Volume": 3041826,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        }
+      },
+      "data_available": true,
+      "available_dates": [
+        "2025-05-20",
+        "2025-05-21",
+        "2025-05-22",
+        "2025-05-23",
+        "2025-05-26",
+        "2025-05-27",
+        "2025-05-28",
+        "2025-05-29",
+        "2025-05-30",
+        "2025-06-02",
+        "2025-06-03",
+        "2025-06-04",
+        "2025-06-05"
+      ],
+      "date_range_requested": "2025-05-20 to 2025-06-05"
+    },
+    "price_change_absolute": 3.25,
+    "price_change_percentage": 1.145374449339207,
+    "direction": 1,
+    "processing_timestamp": "2025-06-05T11:27:28.745510"
   }
 ]

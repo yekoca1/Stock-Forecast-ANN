@@ -1,0 +1,431 @@
+file_path,stock_code,publication_date,target_trading_date,content,content_length,price_change_percentage,price_change_absolute,direction,target_price,previous_price,text_length,word_count,sentence_count,avg_sentence_length,unique_words,lexical_diversity,textblob_polarity,textblob_subjectivity,financial_sentiment,positive_terms_count,negative_terms_count,total_financial_terms,named_entities_count,financial_entities_count,financial_statement_score,board_changes_score,corporate_action_score,material_event_score,governance_score,primary_report_type,percentages_found,percentages_count,avg_percentage,max_percentage,amounts_found,amounts_count,total_amount,years_mentioned,years_count,most_recent_year,cleaned_text,named_entities,financial_entities
+thyao_notifications\notification_1440777.json,THYAO,2025-06-04T11:13:24,2025-06-04T00:00:00+03:00,"Summary Info
+A Joint Business Agreement with Thai Airways
+Related Companies
+[]
+Related Funds
+[]
+oda_MaterialEventDisclosureGeneralAbstract|
+Material Event Disclosure General
+oda_UpdateAnnouncementFlag|
+  Update Notification Flag
+Hayır (No)
+oda_CorrectionAnnouncementFlag|
+  Correction Notification Flag
+Hayır (No)
+oda_DateOfThePreviousNotificationAboutTheSameSubject|
+  Date Of The Previous Notification About The Same Subject
+-
+oda_DelayedAnnouncementFlag|
+  Postponed Notification Flag
+Evet (Yes)
+oda_AnnouncementContentSection|
+  Announcement Content
+oda_ExplanationSection|
+  Explanations
+oda_ExplanationTextBlock|
+
+
+
+
+
+A Joint Business Agreement (JBA) based on a revenue-sharing model has been signed between our Company and Thai Airways on the Istanbul–Bangkok route. Through this agreement, the aim is to maximize passenger numbers and revenue by jointly utilizing the capacity of both airlines on the specific route.
+
+The agreement, which is subject to approval by the relevant competition authorities and regulatory bodies in the respective countries, is planned to take effect in the Winter 2025/2026 schedule period depending on the completion of the approval processes. The agreement is set for a term of 3 years, with an optional extension of 2 years.
+
+Considering the uncertainties due to the process not yet being finalized and the potential impact on investor decisions, our Board of Directors decided to postpone the public disclosure of the agreement, resolved on 16.05.2025, in accordance with Article 6 of the Capital Markets Board's Communiqué on Material Events (II-15.1) in order to protect our Company's legitimate interests and to prevent any adverse effect on the process.
+
+This announcement is being made due to the signing of the agreement.
+
+Respectfully announced to the public. 
+
+
+
+We proclaim that our above disclosure is in conformity with the principles set down in “Material Events Communiqué” of Capital Markets Board, and it fully reflects all information coming to our knowledge on the subject matter thereof, and it is in conformity with our books, records and documents, and all reasonable efforts have been shown by our Company in order to obtain all information fully and accurately about the subject matter thereof, and we’re personally liable for the disclosures.",2306,1.145374449339207,3.25,1,287.0,283.75,2306,357,8,44.625,180,0.5042016806722689,0.009178743961352667,0.3806763285024154,1.0,1,0,1,20,4,0,2,0,5,0,material_event,[],0,0,0,[],0,0,"[2025, 2026, 2025]",2,2026,"summary info a joint business agreement with thai airways related companies    related funds    oda_materialeventdisclosuregeneralabstract  material event disclosure general oda_updateannouncementflag  update notification flag hayır  no  oda_correctionannouncementflag  correction notification flag hayır  no  oda_dateofthepreviousnotificationaboutthesamesubject  date of the previous notification about the same subject - oda_delayedannouncementflag  postponed notification flag evet  yes  oda_announcementcontentsection  announcement content oda_explanationsection  explanations oda_explanationtextblock  a joint business agreement  jba  based on a revenue-sharing model has been signed between our company and thai airways on the istanbul bangkok route. through this agreement, the aim is to maximize passenger numbers and revenue by jointly utilizing the capacity of both airlines on the specific route. the agreement, which is subject to approval by the relevant competition authorities and regulatory bodies in the respective countries, is planned to take effect in the winter     schedule period depending on the completion of the approval processes. the agreement is set for a term of   years, with an optional extension of   years. considering the uncertainties due to the process not yet being finalized and the potential impact on investor decisions, our board of directors decided to postpone the public disclosure of the agreement, resolved on  6. 5. , in accordance with article   of the capital markets board s communiqué on material events  ii- 5.   in order to protect our company s legitimate interests and to prevent any adverse effect on the process. this announcement is being made due to the signing of the agreement. respectfully announced to the public. we proclaim that our above disclosure is in conformity with the principles set down in  material events communiqué  of capital markets board, and it fully reflects all information coming to our knowledge on the subject matter thereof, and it is in conformity with our books, records and documents, and all reasonable efforts have been shown by our company in order to obtain all information fully and accurately about the subject matter thereof, and we re personally liable for the disclosures.","[('Thai Airways Related', 'PERSON'), ('Update Notification Flag Hayır', 'ORGANIZATION'), ('No', 'ORGANIZATION'), ('Correction Notification Flag Hayır', 'ORGANIZATION'), ('No', 'ORGANIZATION'), ('Date Of The Previous Notification', 'ORGANIZATION'), ('Same Subject', 'ORGANIZATION'), ('Notification Flag Evet', 'PERSON'), ('Announcement Content', 'PERSON'), ('JBA', 'ORGANIZATION'), ('Company', 'ORGANIZATION'), ('Thai', 'GPE'), ('Board', 'ORGANIZATION'), ('Directors', 'PERSON'), ('Article', 'ORGANIZATION'), ('Capital Markets Board', 'ORGANIZATION'), ('Communiqué', 'ORGANIZATION'), ('Material', 'ORGANIZATION'), ('Company', 'ORGANIZATION'), ('Capital Markets Board', 'ORGANIZATION')]","['revenue', 'board', 'board', 'board']"
+thyao_notifications\notification_1440782.json,THYAO,2025-06-04T11:13:15,2025-06-04T00:00:00+03:00,"Summary Info
+A Joint Business Agreement with Thai Airways
+Related Companies
+[]
+Related Funds
+[]
+oda_MaterialEventDisclosureGeneralAbstract|
+Material Event Disclosure General
+oda_UpdateAnnouncementFlag|
+  Update Notification Flag
+Hayır (No)
+oda_CorrectionAnnouncementFlag|
+  Correction Notification Flag
+Hayır (No)
+oda_DateOfThePreviousNotificationAboutTheSameSubject|
+  Date Of The Previous Notification About The Same Subject
+-
+oda_DelayedAnnouncementFlag|
+  Postponed Notification Flag
+Evet (Yes)
+oda_AnnouncementContentSection|
+  Announcement Content
+oda_ExplanationSection|
+  Explanations
+oda_ExplanationTextBlock|
+
+
+
+
+
+A Joint Business Agreement (JBA) based on a revenue-sharing model has been signed between our Company and Thai Airways on the Istanbul–Bangkok route. Through this agreement, the aim is to maximize passenger numbers and revenue by jointly utilizing the capacity of both airlines on the specific route.
+
+The agreement, which is subject to approval by the relevant competition authorities and regulatory bodies in the respective countries, is planned to take effect in the Winter 2025/2026 schedule period depending on the completion of the approval processes. The agreement is set for a term of 3 years, with an optional extension of 2 years.
+
+Considering the uncertainties due to the process not yet being finalized and the potential impact on investor decisions, our Board of Directors decided to postpone the public disclosure of the agreement, resolved on 16.05.2025, in accordance with Article 6 of the Capital Markets Board's Communiqué on Material Events (II-15.1) in order to protect our Company's legitimate interests and to prevent any adverse effect on the process.
+
+This announcement is being made due to the signing of the agreement.
+
+Respectfully announced to the public. 
+
+
+
+We proclaim that our above disclosure is in conformity with the principles set down in “Material Events Communiqué” of Capital Markets Board, and it fully reflects all information coming to our knowledge on the subject matter thereof, and it is in conformity with our books, records and documents, and all reasonable efforts have been shown by our Company in order to obtain all information fully and accurately about the subject matter thereof, and we’re personally liable for the disclosures.",2306,1.145374449339207,3.25,1,287.0,283.75,2306,357,8,44.625,180,0.5042016806722689,0.009178743961352667,0.3806763285024154,1.0,1,0,1,20,4,0,2,0,5,0,material_event,[],0,0,0,[],0,0,"[2025, 2026, 2025]",2,2026,"summary info a joint business agreement with thai airways related companies    related funds    oda_materialeventdisclosuregeneralabstract  material event disclosure general oda_updateannouncementflag  update notification flag hayır  no  oda_correctionannouncementflag  correction notification flag hayır  no  oda_dateofthepreviousnotificationaboutthesamesubject  date of the previous notification about the same subject - oda_delayedannouncementflag  postponed notification flag evet  yes  oda_announcementcontentsection  announcement content oda_explanationsection  explanations oda_explanationtextblock  a joint business agreement  jba  based on a revenue-sharing model has been signed between our company and thai airways on the istanbul bangkok route. through this agreement, the aim is to maximize passenger numbers and revenue by jointly utilizing the capacity of both airlines on the specific route. the agreement, which is subject to approval by the relevant competition authorities and regulatory bodies in the respective countries, is planned to take effect in the winter     schedule period depending on the completion of the approval processes. the agreement is set for a term of   years, with an optional extension of   years. considering the uncertainties due to the process not yet being finalized and the potential impact on investor decisions, our board of directors decided to postpone the public disclosure of the agreement, resolved on  6. 5. , in accordance with article   of the capital markets board s communiqué on material events  ii- 5.   in order to protect our company s legitimate interests and to prevent any adverse effect on the process. this announcement is being made due to the signing of the agreement. respectfully announced to the public. we proclaim that our above disclosure is in conformity with the principles set down in  material events communiqué  of capital markets board, and it fully reflects all information coming to our knowledge on the subject matter thereof, and it is in conformity with our books, records and documents, and all reasonable efforts have been shown by our company in order to obtain all information fully and accurately about the subject matter thereof, and we re personally liable for the disclosures.","[('Thai Airways Related', 'PERSON'), ('Update Notification Flag Hayır', 'ORGANIZATION'), ('No', 'ORGANIZATION'), ('Correction Notification Flag Hayır', 'ORGANIZATION'), ('No', 'ORGANIZATION'), ('Date Of The Previous Notification', 'ORGANIZATION'), ('Same Subject', 'ORGANIZATION'), ('Notification Flag Evet', 'PERSON'), ('Announcement Content', 'PERSON'), ('JBA', 'ORGANIZATION'), ('Company', 'ORGANIZATION'), ('Thai', 'GPE'), ('Board', 'ORGANIZATION'), ('Directors', 'PERSON'), ('Article', 'ORGANIZATION'), ('Capital Markets Board', 'ORGANIZATION'), ('Communiqué', 'ORGANIZATION'), ('Material', 'ORGANIZATION'), ('Company', 'ORGANIZATION'), ('Capital Markets Board', 'ORGANIZATION')]","['revenue', 'board', 'board', 'board']"
+thyao_notifications\notification_1440796.json,THYAO,2025-06-04T11:13:07,2025-06-04T00:00:00+03:00,"Summary Info
+A Joint Business Agreement with Thai Airways
+Related Companies
+[]
+Related Funds
+[]
+oda_MaterialEventDisclosureGeneralAbstract|
+Material Event Disclosure General
+oda_UpdateAnnouncementFlag|
+  Update Notification Flag
+Hayır (No)
+oda_CorrectionAnnouncementFlag|
+  Correction Notification Flag
+Hayır (No)
+oda_DateOfThePreviousNotificationAboutTheSameSubject|
+  Date Of The Previous Notification About The Same Subject
+-
+oda_DelayedAnnouncementFlag|
+  Postponed Notification Flag
+Evet (Yes)
+oda_AnnouncementContentSection|
+  Announcement Content
+oda_ExplanationSection|
+  Explanations
+oda_ExplanationTextBlock|
+
+
+
+
+
+A Joint Business Agreement (JBA) based on a revenue-sharing model has been signed between our Company and Thai Airways on the Istanbul–Bangkok route. Through this agreement, the aim is to maximize passenger numbers and revenue by jointly utilizing the capacity of both airlines on the specific route.
+
+The agreement, which is subject to approval by the relevant competition authorities and regulatory bodies in the respective countries, is planned to take effect in the Winter 2025/2026 schedule period depending on the completion of the approval processes. The agreement is set for a term of 3 years, with an optional extension of 2 years.
+
+Considering the uncertainties due to the process not yet being finalized and the potential impact on investor decisions, our Board of Directors decided to postpone the public disclosure of the agreement, resolved on 16.05.2025, in accordance with Article 6 of the Capital Markets Board's Communiqué on Material Events (II-15.1) in order to protect our Company's legitimate interests and to prevent any adverse effect on the process.
+
+This announcement is being made due to the signing of the agreement.
+
+Respectfully announced to the public. 
+
+
+
+We proclaim that our above disclosure is in conformity with the principles set down in “Material Events Communiqué” of Capital Markets Board, and it fully reflects all information coming to our knowledge on the subject matter thereof, and it is in conformity with our books, records and documents, and all reasonable efforts have been shown by our Company in order to obtain all information fully and accurately about the subject matter thereof, and we’re personally liable for the disclosures.",2306,1.145374449339207,3.25,1,287.0,283.75,2306,357,8,44.625,180,0.5042016806722689,0.009178743961352667,0.3806763285024154,1.0,1,0,1,20,4,0,2,0,5,0,material_event,[],0,0,0,[],0,0,"[2025, 2026, 2025]",2,2026,"summary info a joint business agreement with thai airways related companies    related funds    oda_materialeventdisclosuregeneralabstract  material event disclosure general oda_updateannouncementflag  update notification flag hayır  no  oda_correctionannouncementflag  correction notification flag hayır  no  oda_dateofthepreviousnotificationaboutthesamesubject  date of the previous notification about the same subject - oda_delayedannouncementflag  postponed notification flag evet  yes  oda_announcementcontentsection  announcement content oda_explanationsection  explanations oda_explanationtextblock  a joint business agreement  jba  based on a revenue-sharing model has been signed between our company and thai airways on the istanbul bangkok route. through this agreement, the aim is to maximize passenger numbers and revenue by jointly utilizing the capacity of both airlines on the specific route. the agreement, which is subject to approval by the relevant competition authorities and regulatory bodies in the respective countries, is planned to take effect in the winter     schedule period depending on the completion of the approval processes. the agreement is set for a term of   years, with an optional extension of   years. considering the uncertainties due to the process not yet being finalized and the potential impact on investor decisions, our board of directors decided to postpone the public disclosure of the agreement, resolved on  6. 5. , in accordance with article   of the capital markets board s communiqué on material events  ii- 5.   in order to protect our company s legitimate interests and to prevent any adverse effect on the process. this announcement is being made due to the signing of the agreement. respectfully announced to the public. we proclaim that our above disclosure is in conformity with the principles set down in  material events communiqué  of capital markets board, and it fully reflects all information coming to our knowledge on the subject matter thereof, and it is in conformity with our books, records and documents, and all reasonable efforts have been shown by our company in order to obtain all information fully and accurately about the subject matter thereof, and we re personally liable for the disclosures.","[('Thai Airways Related', 'PERSON'), ('Update Notification Flag Hayır', 'ORGANIZATION'), ('No', 'ORGANIZATION'), ('Correction Notification Flag Hayır', 'ORGANIZATION'), ('No', 'ORGANIZATION'), ('Date Of The Previous Notification', 'ORGANIZATION'), ('Same Subject', 'ORGANIZATION'), ('Notification Flag Evet', 'PERSON'), ('Announcement Content', 'PERSON'), ('JBA', 'ORGANIZATION'), ('Company', 'ORGANIZATION'), ('Thai', 'GPE'), ('Board', 'ORGANIZATION'), ('Directors', 'PERSON'), ('Article', 'ORGANIZATION'), ('Capital Markets Board', 'ORGANIZATION'), ('Communiqué', 'ORGANIZATION'), ('Material', 'ORGANIZATION'), ('Company', 'ORGANIZATION'), ('Capital Markets Board', 'ORGANIZATION')]","['revenue', 'board', 'board', 'board']"
+thyao_notifications\notification_1440806.json,THYAO,2025-06-04T11:12:59,2025-06-04T00:00:00+03:00,"Summary Info
+A Joint Business Agreement with Thai Airways
+Related Companies
+[]
+Related Funds
+[]
+oda_MaterialEventDisclosureGeneralAbstract|
+Material Event Disclosure General
+oda_UpdateAnnouncementFlag|
+  Update Notification Flag
+Hayır (No)
+oda_CorrectionAnnouncementFlag|
+  Correction Notification Flag
+Hayır (No)
+oda_DateOfThePreviousNotificationAboutTheSameSubject|
+  Date Of The Previous Notification About The Same Subject
+-
+oda_DelayedAnnouncementFlag|
+  Postponed Notification Flag
+Evet (Yes)
+oda_AnnouncementContentSection|
+  Announcement Content
+oda_ExplanationSection|
+  Explanations
+oda_ExplanationTextBlock|
+
+
+
+
+
+A Joint Business Agreement (JBA) based on a revenue-sharing model has been signed between our Company and Thai Airways on the Istanbul–Bangkok route. Through this agreement, the aim is to maximize passenger numbers and revenue by jointly utilizing the capacity of both airlines on the specific route.
+
+The agreement, which is subject to approval by the relevant competition authorities and regulatory bodies in the respective countries, is planned to take effect in the Winter 2025/2026 schedule period depending on the completion of the approval processes. The agreement is set for a term of 3 years, with an optional extension of 2 years.
+
+Considering the uncertainties due to the process not yet being finalized and the potential impact on investor decisions, our Board of Directors decided to postpone the public disclosure of the agreement, resolved on 16.05.2025, in accordance with Article 6 of the Capital Markets Board's Communiqué on Material Events (II-15.1) in order to protect our Company's legitimate interests and to prevent any adverse effect on the process.
+
+This announcement is being made due to the signing of the agreement.
+
+Respectfully announced to the public. 
+
+
+
+We proclaim that our above disclosure is in conformity with the principles set down in “Material Events Communiqué” of Capital Markets Board, and it fully reflects all information coming to our knowledge on the subject matter thereof, and it is in conformity with our books, records and documents, and all reasonable efforts have been shown by our Company in order to obtain all information fully and accurately about the subject matter thereof, and we’re personally liable for the disclosures.",2306,1.145374449339207,3.25,1,287.0,283.75,2306,357,8,44.625,180,0.5042016806722689,0.009178743961352667,0.3806763285024154,1.0,1,0,1,20,4,0,2,0,5,0,material_event,[],0,0,0,[],0,0,"[2025, 2026, 2025]",2,2026,"summary info a joint business agreement with thai airways related companies    related funds    oda_materialeventdisclosuregeneralabstract  material event disclosure general oda_updateannouncementflag  update notification flag hayır  no  oda_correctionannouncementflag  correction notification flag hayır  no  oda_dateofthepreviousnotificationaboutthesamesubject  date of the previous notification about the same subject - oda_delayedannouncementflag  postponed notification flag evet  yes  oda_announcementcontentsection  announcement content oda_explanationsection  explanations oda_explanationtextblock  a joint business agreement  jba  based on a revenue-sharing model has been signed between our company and thai airways on the istanbul bangkok route. through this agreement, the aim is to maximize passenger numbers and revenue by jointly utilizing the capacity of both airlines on the specific route. the agreement, which is subject to approval by the relevant competition authorities and regulatory bodies in the respective countries, is planned to take effect in the winter     schedule period depending on the completion of the approval processes. the agreement is set for a term of   years, with an optional extension of   years. considering the uncertainties due to the process not yet being finalized and the potential impact on investor decisions, our board of directors decided to postpone the public disclosure of the agreement, resolved on  6. 5. , in accordance with article   of the capital markets board s communiqué on material events  ii- 5.   in order to protect our company s legitimate interests and to prevent any adverse effect on the process. this announcement is being made due to the signing of the agreement. respectfully announced to the public. we proclaim that our above disclosure is in conformity with the principles set down in  material events communiqué  of capital markets board, and it fully reflects all information coming to our knowledge on the subject matter thereof, and it is in conformity with our books, records and documents, and all reasonable efforts have been shown by our company in order to obtain all information fully and accurately about the subject matter thereof, and we re personally liable for the disclosures.","[('Thai Airways Related', 'PERSON'), ('Update Notification Flag Hayır', 'ORGANIZATION'), ('No', 'ORGANIZATION'), ('Correction Notification Flag Hayır', 'ORGANIZATION'), ('No', 'ORGANIZATION'), ('Date Of The Previous Notification', 'ORGANIZATION'), ('Same Subject', 'ORGANIZATION'), ('Notification Flag Evet', 'PERSON'), ('Announcement Content', 'PERSON'), ('JBA', 'ORGANIZATION'), ('Company', 'ORGANIZATION'), ('Thai', 'GPE'), ('Board', 'ORGANIZATION'), ('Directors', 'PERSON'), ('Article', 'ORGANIZATION'), ('Capital Markets Board', 'ORGANIZATION'), ('Communiqué', 'ORGANIZATION'), ('Material', 'ORGANIZATION'), ('Company', 'ORGANIZATION'), ('Capital Markets Board', 'ORGANIZATION')]","['revenue', 'board', 'board', 'board']"
+thyao_notifications\notification_1440807.json,THYAO,2025-06-04T11:12:51,2025-06-04T00:00:00+03:00,"Summary Info
+A Joint Business Agreement with Thai Airways
+Related Companies
+[]
+Related Funds
+[]
+oda_MaterialEventDisclosureGeneralAbstract|
+Material Event Disclosure General
+oda_UpdateAnnouncementFlag|
+  Update Notification Flag
+Hayır (No)
+oda_CorrectionAnnouncementFlag|
+  Correction Notification Flag
+Hayır (No)
+oda_DateOfThePreviousNotificationAboutTheSameSubject|
+  Date Of The Previous Notification About The Same Subject
+-
+oda_DelayedAnnouncementFlag|
+  Postponed Notification Flag
+Evet (Yes)
+oda_AnnouncementContentSection|
+  Announcement Content
+oda_ExplanationSection|
+  Explanations
+oda_ExplanationTextBlock|
+
+
+
+
+
+A Joint Business Agreement (JBA) based on a revenue-sharing model has been signed between our Company and Thai Airways on the Istanbul–Bangkok route. Through this agreement, the aim is to maximize passenger numbers and revenue by jointly utilizing the capacity of both airlines on the specific route.
+
+The agreement, which is subject to approval by the relevant competition authorities and regulatory bodies in the respective countries, is planned to take effect in the Winter 2025/2026 schedule period depending on the completion of the approval processes. The agreement is set for a term of 3 years, with an optional extension of 2 years.
+
+Considering the uncertainties due to the process not yet being finalized and the potential impact on investor decisions, our Board of Directors decided to postpone the public disclosure of the agreement, resolved on 16.05.2025, in accordance with Article 6 of the Capital Markets Board's Communiqué on Material Events (II-15.1) in order to protect our Company's legitimate interests and to prevent any adverse effect on the process.
+
+This announcement is being made due to the signing of the agreement.
+
+Respectfully announced to the public. 
+
+
+
+We proclaim that our above disclosure is in conformity with the principles set down in “Material Events Communiqué” of Capital Markets Board, and it fully reflects all information coming to our knowledge on the subject matter thereof, and it is in conformity with our books, records and documents, and all reasonable efforts have been shown by our Company in order to obtain all information fully and accurately about the subject matter thereof, and we’re personally liable for the disclosures.",2306,1.145374449339207,3.25,1,287.0,283.75,2306,357,8,44.625,180,0.5042016806722689,0.009178743961352667,0.3806763285024154,1.0,1,0,1,20,4,0,2,0,5,0,material_event,[],0,0,0,[],0,0,"[2025, 2026, 2025]",2,2026,"summary info a joint business agreement with thai airways related companies    related funds    oda_materialeventdisclosuregeneralabstract  material event disclosure general oda_updateannouncementflag  update notification flag hayır  no  oda_correctionannouncementflag  correction notification flag hayır  no  oda_dateofthepreviousnotificationaboutthesamesubject  date of the previous notification about the same subject - oda_delayedannouncementflag  postponed notification flag evet  yes  oda_announcementcontentsection  announcement content oda_explanationsection  explanations oda_explanationtextblock  a joint business agreement  jba  based on a revenue-sharing model has been signed between our company and thai airways on the istanbul bangkok route. through this agreement, the aim is to maximize passenger numbers and revenue by jointly utilizing the capacity of both airlines on the specific route. the agreement, which is subject to approval by the relevant competition authorities and regulatory bodies in the respective countries, is planned to take effect in the winter     schedule period depending on the completion of the approval processes. the agreement is set for a term of   years, with an optional extension of   years. considering the uncertainties due to the process not yet being finalized and the potential impact on investor decisions, our board of directors decided to postpone the public disclosure of the agreement, resolved on  6. 5. , in accordance with article   of the capital markets board s communiqué on material events  ii- 5.   in order to protect our company s legitimate interests and to prevent any adverse effect on the process. this announcement is being made due to the signing of the agreement. respectfully announced to the public. we proclaim that our above disclosure is in conformity with the principles set down in  material events communiqué  of capital markets board, and it fully reflects all information coming to our knowledge on the subject matter thereof, and it is in conformity with our books, records and documents, and all reasonable efforts have been shown by our company in order to obtain all information fully and accurately about the subject matter thereof, and we re personally liable for the disclosures.","[('Thai Airways Related', 'PERSON'), ('Update Notification Flag Hayır', 'ORGANIZATION'), ('No', 'ORGANIZATION'), ('Correction Notification Flag Hayır', 'ORGANIZATION'), ('No', 'ORGANIZATION'), ('Date Of The Previous Notification', 'ORGANIZATION'), ('Same Subject', 'ORGANIZATION'), ('Notification Flag Evet', 'PERSON'), ('Announcement Content', 'PERSON'), ('JBA', 'ORGANIZATION'), ('Company', 'ORGANIZATION'), ('Thai', 'GPE'), ('Board', 'ORGANIZATION'), ('Directors', 'PERSON'), ('Article', 'ORGANIZATION'), ('Capital Markets Board', 'ORGANIZATION'), ('Communiqué', 'ORGANIZATION'), ('Material', 'ORGANIZATION'), ('Company', 'ORGANIZATION'), ('Capital Markets Board', 'ORGANIZATION')]","['revenue', 'board', 'board', 'board']"
+thyao_notifications\notification_1440808.json,THYAO,2025-06-04T11:12:42,2025-06-04T00:00:00+03:00,"Summary Info
+A Joint Business Agreement with Thai Airways
+Related Companies
+[]
+Related Funds
+[]
+oda_MaterialEventDisclosureGeneralAbstract|
+Material Event Disclosure General
+oda_UpdateAnnouncementFlag|
+  Update Notification Flag
+Hayır (No)
+oda_CorrectionAnnouncementFlag|
+  Correction Notification Flag
+Hayır (No)
+oda_DateOfThePreviousNotificationAboutTheSameSubject|
+  Date Of The Previous Notification About The Same Subject
+-
+oda_DelayedAnnouncementFlag|
+  Postponed Notification Flag
+Evet (Yes)
+oda_AnnouncementContentSection|
+  Announcement Content
+oda_ExplanationSection|
+  Explanations
+oda_ExplanationTextBlock|
+
+
+
+
+
+A Joint Business Agreement (JBA) based on a revenue-sharing model has been signed between our Company and Thai Airways on the Istanbul–Bangkok route. Through this agreement, the aim is to maximize passenger numbers and revenue by jointly utilizing the capacity of both airlines on the specific route.
+
+The agreement, which is subject to approval by the relevant competition authorities and regulatory bodies in the respective countries, is planned to take effect in the Winter 2025/2026 schedule period depending on the completion of the approval processes. The agreement is set for a term of 3 years, with an optional extension of 2 years.
+
+Considering the uncertainties due to the process not yet being finalized and the potential impact on investor decisions, our Board of Directors decided to postpone the public disclosure of the agreement, resolved on 16.05.2025, in accordance with Article 6 of the Capital Markets Board's Communiqué on Material Events (II-15.1) in order to protect our Company's legitimate interests and to prevent any adverse effect on the process.
+
+This announcement is being made due to the signing of the agreement.
+
+Respectfully announced to the public. 
+
+
+
+We proclaim that our above disclosure is in conformity with the principles set down in “Material Events Communiqué” of Capital Markets Board, and it fully reflects all information coming to our knowledge on the subject matter thereof, and it is in conformity with our books, records and documents, and all reasonable efforts have been shown by our Company in order to obtain all information fully and accurately about the subject matter thereof, and we’re personally liable for the disclosures.",2306,1.145374449339207,3.25,1,287.0,283.75,2306,357,8,44.625,180,0.5042016806722689,0.009178743961352667,0.3806763285024154,1.0,1,0,1,20,4,0,2,0,5,0,material_event,[],0,0,0,[],0,0,"[2025, 2026, 2025]",2,2026,"summary info a joint business agreement with thai airways related companies    related funds    oda_materialeventdisclosuregeneralabstract  material event disclosure general oda_updateannouncementflag  update notification flag hayır  no  oda_correctionannouncementflag  correction notification flag hayır  no  oda_dateofthepreviousnotificationaboutthesamesubject  date of the previous notification about the same subject - oda_delayedannouncementflag  postponed notification flag evet  yes  oda_announcementcontentsection  announcement content oda_explanationsection  explanations oda_explanationtextblock  a joint business agreement  jba  based on a revenue-sharing model has been signed between our company and thai airways on the istanbul bangkok route. through this agreement, the aim is to maximize passenger numbers and revenue by jointly utilizing the capacity of both airlines on the specific route. the agreement, which is subject to approval by the relevant competition authorities and regulatory bodies in the respective countries, is planned to take effect in the winter     schedule period depending on the completion of the approval processes. the agreement is set for a term of   years, with an optional extension of   years. considering the uncertainties due to the process not yet being finalized and the potential impact on investor decisions, our board of directors decided to postpone the public disclosure of the agreement, resolved on  6. 5. , in accordance with article   of the capital markets board s communiqué on material events  ii- 5.   in order to protect our company s legitimate interests and to prevent any adverse effect on the process. this announcement is being made due to the signing of the agreement. respectfully announced to the public. we proclaim that our above disclosure is in conformity with the principles set down in  material events communiqué  of capital markets board, and it fully reflects all information coming to our knowledge on the subject matter thereof, and it is in conformity with our books, records and documents, and all reasonable efforts have been shown by our company in order to obtain all information fully and accurately about the subject matter thereof, and we re personally liable for the disclosures.","[('Thai Airways Related', 'PERSON'), ('Update Notification Flag Hayır', 'ORGANIZATION'), ('No', 'ORGANIZATION'), ('Correction Notification Flag Hayır', 'ORGANIZATION'), ('No', 'ORGANIZATION'), ('Date Of The Previous Notification', 'ORGANIZATION'), ('Same Subject', 'ORGANIZATION'), ('Notification Flag Evet', 'PERSON'), ('Announcement Content', 'PERSON'), ('JBA', 'ORGANIZATION'), ('Company', 'ORGANIZATION'), ('Thai', 'GPE'), ('Board', 'ORGANIZATION'), ('Directors', 'PERSON'), ('Article', 'ORGANIZATION'), ('Capital Markets Board', 'ORGANIZATION'), ('Communiqué', 'ORGANIZATION'), ('Material', 'ORGANIZATION'), ('Company', 'ORGANIZATION'), ('Capital Markets Board', 'ORGANIZATION')]","['revenue', 'board', 'board', 'board']"
+thyao_notifications\notification_1442091.json,THYAO,2025-06-04T11:12:34,2025-06-04T00:00:00+03:00,"Summary Info
+A Joint Business Agreement with Thai Airways
+Related Companies
+[]
+Related Funds
+[]
+oda_MaterialEventDisclosureGeneralAbstract|
+Material Event Disclosure General
+oda_UpdateAnnouncementFlag|
+  Update Notification Flag
+Hayır (No)
+oda_CorrectionAnnouncementFlag|
+  Correction Notification Flag
+Hayır (No)
+oda_DateOfThePreviousNotificationAboutTheSameSubject|
+  Date Of The Previous Notification About The Same Subject
+-
+oda_DelayedAnnouncementFlag|
+  Postponed Notification Flag
+Evet (Yes)
+oda_AnnouncementContentSection|
+  Announcement Content
+oda_ExplanationSection|
+  Explanations
+oda_ExplanationTextBlock|
+
+
+
+
+
+A Joint Business Agreement (JBA) based on a revenue-sharing model has been signed between our Company and Thai Airways on the Istanbul–Bangkok route. Through this agreement, the aim is to maximize passenger numbers and revenue by jointly utilizing the capacity of both airlines on the specific route.
+
+The agreement, which is subject to approval by the relevant competition authorities and regulatory bodies in the respective countries, is planned to take effect in the Winter 2025/2026 schedule period depending on the completion of the approval processes. The agreement is set for a term of 3 years, with an optional extension of 2 years.
+
+Considering the uncertainties due to the process not yet being finalized and the potential impact on investor decisions, our Board of Directors decided to postpone the public disclosure of the agreement, resolved on 16.05.2025, in accordance with Article 6 of the Capital Markets Board's Communiqué on Material Events (II-15.1) in order to protect our Company's legitimate interests and to prevent any adverse effect on the process.
+
+This announcement is being made due to the signing of the agreement.
+
+Respectfully announced to the public. 
+
+
+
+We proclaim that our above disclosure is in conformity with the principles set down in “Material Events Communiqué” of Capital Markets Board, and it fully reflects all information coming to our knowledge on the subject matter thereof, and it is in conformity with our books, records and documents, and all reasonable efforts have been shown by our Company in order to obtain all information fully and accurately about the subject matter thereof, and we’re personally liable for the disclosures.",2306,1.145374449339207,3.25,1,287.0,283.75,2306,357,8,44.625,180,0.5042016806722689,0.009178743961352667,0.3806763285024154,1.0,1,0,1,20,4,0,2,0,5,0,material_event,[],0,0,0,[],0,0,"[2025, 2026, 2025]",2,2026,"summary info a joint business agreement with thai airways related companies    related funds    oda_materialeventdisclosuregeneralabstract  material event disclosure general oda_updateannouncementflag  update notification flag hayır  no  oda_correctionannouncementflag  correction notification flag hayır  no  oda_dateofthepreviousnotificationaboutthesamesubject  date of the previous notification about the same subject - oda_delayedannouncementflag  postponed notification flag evet  yes  oda_announcementcontentsection  announcement content oda_explanationsection  explanations oda_explanationtextblock  a joint business agreement  jba  based on a revenue-sharing model has been signed between our company and thai airways on the istanbul bangkok route. through this agreement, the aim is to maximize passenger numbers and revenue by jointly utilizing the capacity of both airlines on the specific route. the agreement, which is subject to approval by the relevant competition authorities and regulatory bodies in the respective countries, is planned to take effect in the winter     schedule period depending on the completion of the approval processes. the agreement is set for a term of   years, with an optional extension of   years. considering the uncertainties due to the process not yet being finalized and the potential impact on investor decisions, our board of directors decided to postpone the public disclosure of the agreement, resolved on  6. 5. , in accordance with article   of the capital markets board s communiqué on material events  ii- 5.   in order to protect our company s legitimate interests and to prevent any adverse effect on the process. this announcement is being made due to the signing of the agreement. respectfully announced to the public. we proclaim that our above disclosure is in conformity with the principles set down in  material events communiqué  of capital markets board, and it fully reflects all information coming to our knowledge on the subject matter thereof, and it is in conformity with our books, records and documents, and all reasonable efforts have been shown by our company in order to obtain all information fully and accurately about the subject matter thereof, and we re personally liable for the disclosures.","[('Thai Airways Related', 'PERSON'), ('Update Notification Flag Hayır', 'ORGANIZATION'), ('No', 'ORGANIZATION'), ('Correction Notification Flag Hayır', 'ORGANIZATION'), ('No', 'ORGANIZATION'), ('Date Of The Previous Notification', 'ORGANIZATION'), ('Same Subject', 'ORGANIZATION'), ('Notification Flag Evet', 'PERSON'), ('Announcement Content', 'PERSON'), ('JBA', 'ORGANIZATION'), ('Company', 'ORGANIZATION'), ('Thai', 'GPE'), ('Board', 'ORGANIZATION'), ('Directors', 'PERSON'), ('Article', 'ORGANIZATION'), ('Capital Markets Board', 'ORGANIZATION'), ('Communiqué', 'ORGANIZATION'), ('Material', 'ORGANIZATION'), ('Company', 'ORGANIZATION'), ('Capital Markets Board', 'ORGANIZATION')]","['revenue', 'board', 'board', 'board']"
+thyao_notifications\notification_1442222.json,THYAO,2025-06-04T11:12:26,2025-06-04T00:00:00+03:00,"Summary Info
+A Joint Business Agreement with Thai Airways
+Related Companies
+[]
+Related Funds
+[]
+oda_MaterialEventDisclosureGeneralAbstract|
+Material Event Disclosure General
+oda_UpdateAnnouncementFlag|
+  Update Notification Flag
+Hayır (No)
+oda_CorrectionAnnouncementFlag|
+  Correction Notification Flag
+Hayır (No)
+oda_DateOfThePreviousNotificationAboutTheSameSubject|
+  Date Of The Previous Notification About The Same Subject
+-
+oda_DelayedAnnouncementFlag|
+  Postponed Notification Flag
+Evet (Yes)
+oda_AnnouncementContentSection|
+  Announcement Content
+oda_ExplanationSection|
+  Explanations
+oda_ExplanationTextBlock|
+
+
+
+
+
+A Joint Business Agreement (JBA) based on a revenue-sharing model has been signed between our Company and Thai Airways on the Istanbul–Bangkok route. Through this agreement, the aim is to maximize passenger numbers and revenue by jointly utilizing the capacity of both airlines on the specific route.
+
+The agreement, which is subject to approval by the relevant competition authorities and regulatory bodies in the respective countries, is planned to take effect in the Winter 2025/2026 schedule period depending on the completion of the approval processes. The agreement is set for a term of 3 years, with an optional extension of 2 years.
+
+Considering the uncertainties due to the process not yet being finalized and the potential impact on investor decisions, our Board of Directors decided to postpone the public disclosure of the agreement, resolved on 16.05.2025, in accordance with Article 6 of the Capital Markets Board's Communiqué on Material Events (II-15.1) in order to protect our Company's legitimate interests and to prevent any adverse effect on the process.
+
+This announcement is being made due to the signing of the agreement.
+
+Respectfully announced to the public. 
+
+
+
+We proclaim that our above disclosure is in conformity with the principles set down in “Material Events Communiqué” of Capital Markets Board, and it fully reflects all information coming to our knowledge on the subject matter thereof, and it is in conformity with our books, records and documents, and all reasonable efforts have been shown by our Company in order to obtain all information fully and accurately about the subject matter thereof, and we’re personally liable for the disclosures.",2306,1.145374449339207,3.25,1,287.0,283.75,2306,357,8,44.625,180,0.5042016806722689,0.009178743961352667,0.3806763285024154,1.0,1,0,1,20,4,0,2,0,5,0,material_event,[],0,0,0,[],0,0,"[2025, 2026, 2025]",2,2026,"summary info a joint business agreement with thai airways related companies    related funds    oda_materialeventdisclosuregeneralabstract  material event disclosure general oda_updateannouncementflag  update notification flag hayır  no  oda_correctionannouncementflag  correction notification flag hayır  no  oda_dateofthepreviousnotificationaboutthesamesubject  date of the previous notification about the same subject - oda_delayedannouncementflag  postponed notification flag evet  yes  oda_announcementcontentsection  announcement content oda_explanationsection  explanations oda_explanationtextblock  a joint business agreement  jba  based on a revenue-sharing model has been signed between our company and thai airways on the istanbul bangkok route. through this agreement, the aim is to maximize passenger numbers and revenue by jointly utilizing the capacity of both airlines on the specific route. the agreement, which is subject to approval by the relevant competition authorities and regulatory bodies in the respective countries, is planned to take effect in the winter     schedule period depending on the completion of the approval processes. the agreement is set for a term of   years, with an optional extension of   years. considering the uncertainties due to the process not yet being finalized and the potential impact on investor decisions, our board of directors decided to postpone the public disclosure of the agreement, resolved on  6. 5. , in accordance with article   of the capital markets board s communiqué on material events  ii- 5.   in order to protect our company s legitimate interests and to prevent any adverse effect on the process. this announcement is being made due to the signing of the agreement. respectfully announced to the public. we proclaim that our above disclosure is in conformity with the principles set down in  material events communiqué  of capital markets board, and it fully reflects all information coming to our knowledge on the subject matter thereof, and it is in conformity with our books, records and documents, and all reasonable efforts have been shown by our company in order to obtain all information fully and accurately about the subject matter thereof, and we re personally liable for the disclosures.","[('Thai Airways Related', 'PERSON'), ('Update Notification Flag Hayır', 'ORGANIZATION'), ('No', 'ORGANIZATION'), ('Correction Notification Flag Hayır', 'ORGANIZATION'), ('No', 'ORGANIZATION'), ('Date Of The Previous Notification', 'ORGANIZATION'), ('Same Subject', 'ORGANIZATION'), ('Notification Flag Evet', 'PERSON'), ('Announcement Content', 'PERSON'), ('JBA', 'ORGANIZATION'), ('Company', 'ORGANIZATION'), ('Thai', 'GPE'), ('Board', 'ORGANIZATION'), ('Directors', 'PERSON'), ('Article', 'ORGANIZATION'), ('Capital Markets Board', 'ORGANIZATION'), ('Communiqué', 'ORGANIZATION'), ('Material', 'ORGANIZATION'), ('Company', 'ORGANIZATION'), ('Capital Markets Board', 'ORGANIZATION')]","['revenue', 'board', 'board', 'board']"
+thyao_notifications\notification_1442313.json,THYAO,2025-06-04T11:12:18,2025-06-04T00:00:00+03:00,"Summary Info
+A Joint Business Agreement with Thai Airways
+Related Companies
+[]
+Related Funds
+[]
+oda_MaterialEventDisclosureGeneralAbstract|
+Material Event Disclosure General
+oda_UpdateAnnouncementFlag|
+  Update Notification Flag
+Hayır (No)
+oda_CorrectionAnnouncementFlag|
+  Correction Notification Flag
+Hayır (No)
+oda_DateOfThePreviousNotificationAboutTheSameSubject|
+  Date Of The Previous Notification About The Same Subject
+-
+oda_DelayedAnnouncementFlag|
+  Postponed Notification Flag
+Evet (Yes)
+oda_AnnouncementContentSection|
+  Announcement Content
+oda_ExplanationSection|
+  Explanations
+oda_ExplanationTextBlock|
+
+
+
+
+
+A Joint Business Agreement (JBA) based on a revenue-sharing model has been signed between our Company and Thai Airways on the Istanbul–Bangkok route. Through this agreement, the aim is to maximize passenger numbers and revenue by jointly utilizing the capacity of both airlines on the specific route.
+
+The agreement, which is subject to approval by the relevant competition authorities and regulatory bodies in the respective countries, is planned to take effect in the Winter 2025/2026 schedule period depending on the completion of the approval processes. The agreement is set for a term of 3 years, with an optional extension of 2 years.
+
+Considering the uncertainties due to the process not yet being finalized and the potential impact on investor decisions, our Board of Directors decided to postpone the public disclosure of the agreement, resolved on 16.05.2025, in accordance with Article 6 of the Capital Markets Board's Communiqué on Material Events (II-15.1) in order to protect our Company's legitimate interests and to prevent any adverse effect on the process.
+
+This announcement is being made due to the signing of the agreement.
+
+Respectfully announced to the public. 
+
+
+
+We proclaim that our above disclosure is in conformity with the principles set down in “Material Events Communiqué” of Capital Markets Board, and it fully reflects all information coming to our knowledge on the subject matter thereof, and it is in conformity with our books, records and documents, and all reasonable efforts have been shown by our Company in order to obtain all information fully and accurately about the subject matter thereof, and we’re personally liable for the disclosures.",2306,1.145374449339207,3.25,1,287.0,283.75,2306,357,8,44.625,180,0.5042016806722689,0.009178743961352667,0.3806763285024154,1.0,1,0,1,20,4,0,2,0,5,0,material_event,[],0,0,0,[],0,0,"[2025, 2026, 2025]",2,2026,"summary info a joint business agreement with thai airways related companies    related funds    oda_materialeventdisclosuregeneralabstract  material event disclosure general oda_updateannouncementflag  update notification flag hayır  no  oda_correctionannouncementflag  correction notification flag hayır  no  oda_dateofthepreviousnotificationaboutthesamesubject  date of the previous notification about the same subject - oda_delayedannouncementflag  postponed notification flag evet  yes  oda_announcementcontentsection  announcement content oda_explanationsection  explanations oda_explanationtextblock  a joint business agreement  jba  based on a revenue-sharing model has been signed between our company and thai airways on the istanbul bangkok route. through this agreement, the aim is to maximize passenger numbers and revenue by jointly utilizing the capacity of both airlines on the specific route. the agreement, which is subject to approval by the relevant competition authorities and regulatory bodies in the respective countries, is planned to take effect in the winter     schedule period depending on the completion of the approval processes. the agreement is set for a term of   years, with an optional extension of   years. considering the uncertainties due to the process not yet being finalized and the potential impact on investor decisions, our board of directors decided to postpone the public disclosure of the agreement, resolved on  6. 5. , in accordance with article   of the capital markets board s communiqué on material events  ii- 5.   in order to protect our company s legitimate interests and to prevent any adverse effect on the process. this announcement is being made due to the signing of the agreement. respectfully announced to the public. we proclaim that our above disclosure is in conformity with the principles set down in  material events communiqué  of capital markets board, and it fully reflects all information coming to our knowledge on the subject matter thereof, and it is in conformity with our books, records and documents, and all reasonable efforts have been shown by our company in order to obtain all information fully and accurately about the subject matter thereof, and we re personally liable for the disclosures.","[('Thai Airways Related', 'PERSON'), ('Update Notification Flag Hayır', 'ORGANIZATION'), ('No', 'ORGANIZATION'), ('Correction Notification Flag Hayır', 'ORGANIZATION'), ('No', 'ORGANIZATION'), ('Date Of The Previous Notification', 'ORGANIZATION'), ('Same Subject', 'ORGANIZATION'), ('Notification Flag Evet', 'PERSON'), ('Announcement Content', 'PERSON'), ('JBA', 'ORGANIZATION'), ('Company', 'ORGANIZATION'), ('Thai', 'GPE'), ('Board', 'ORGANIZATION'), ('Directors', 'PERSON'), ('Article', 'ORGANIZATION'), ('Capital Markets Board', 'ORGANIZATION'), ('Communiqué', 'ORGANIZATION'), ('Material', 'ORGANIZATION'), ('Company', 'ORGANIZATION'), ('Capital Markets Board', 'ORGANIZATION')]","['revenue', 'board', 'board', 'board']"
+thyao_notifications\notification_1444201.json,THYAO,2025-06-04T11:12:09,2025-06-04T00:00:00+03:00,"Summary Info
+A Joint Business Agreement with Thai Airways
+Related Companies
+[]
+Related Funds
+[]
+oda_MaterialEventDisclosureGeneralAbstract|
+Material Event Disclosure General
+oda_UpdateAnnouncementFlag|
+  Update Notification Flag
+Hayır (No)
+oda_CorrectionAnnouncementFlag|
+  Correction Notification Flag
+Hayır (No)
+oda_DateOfThePreviousNotificationAboutTheSameSubject|
+  Date Of The Previous Notification About The Same Subject
+-
+oda_DelayedAnnouncementFlag|
+  Postponed Notification Flag
+Evet (Yes)
+oda_AnnouncementContentSection|
+  Announcement Content
+oda_ExplanationSection|
+  Explanations
+oda_ExplanationTextBlock|
+
+
+
+
+
+A Joint Business Agreement (JBA) based on a revenue-sharing model has been signed between our Company and Thai Airways on the Istanbul–Bangkok route. Through this agreement, the aim is to maximize passenger numbers and revenue by jointly utilizing the capacity of both airlines on the specific route.
+
+The agreement, which is subject to approval by the relevant competition authorities and regulatory bodies in the respective countries, is planned to take effect in the Winter 2025/2026 schedule period depending on the completion of the approval processes. The agreement is set for a term of 3 years, with an optional extension of 2 years.
+
+Considering the uncertainties due to the process not yet being finalized and the potential impact on investor decisions, our Board of Directors decided to postpone the public disclosure of the agreement, resolved on 16.05.2025, in accordance with Article 6 of the Capital Markets Board's Communiqué on Material Events (II-15.1) in order to protect our Company's legitimate interests and to prevent any adverse effect on the process.
+
+This announcement is being made due to the signing of the agreement.
+
+Respectfully announced to the public. 
+
+
+
+We proclaim that our above disclosure is in conformity with the principles set down in “Material Events Communiqué” of Capital Markets Board, and it fully reflects all information coming to our knowledge on the subject matter thereof, and it is in conformity with our books, records and documents, and all reasonable efforts have been shown by our Company in order to obtain all information fully and accurately about the subject matter thereof, and we’re personally liable for the disclosures.",2306,1.145374449339207,3.25,1,287.0,283.75,2306,357,8,44.625,180,0.5042016806722689,0.009178743961352667,0.3806763285024154,1.0,1,0,1,20,4,0,2,0,5,0,material_event,[],0,0,0,[],0,0,"[2025, 2026, 2025]",2,2026,"summary info a joint business agreement with thai airways related companies    related funds    oda_materialeventdisclosuregeneralabstract  material event disclosure general oda_updateannouncementflag  update notification flag hayır  no  oda_correctionannouncementflag  correction notification flag hayır  no  oda_dateofthepreviousnotificationaboutthesamesubject  date of the previous notification about the same subject - oda_delayedannouncementflag  postponed notification flag evet  yes  oda_announcementcontentsection  announcement content oda_explanationsection  explanations oda_explanationtextblock  a joint business agreement  jba  based on a revenue-sharing model has been signed between our company and thai airways on the istanbul bangkok route. through this agreement, the aim is to maximize passenger numbers and revenue by jointly utilizing the capacity of both airlines on the specific route. the agreement, which is subject to approval by the relevant competition authorities and regulatory bodies in the respective countries, is planned to take effect in the winter     schedule period depending on the completion of the approval processes. the agreement is set for a term of   years, with an optional extension of   years. considering the uncertainties due to the process not yet being finalized and the potential impact on investor decisions, our board of directors decided to postpone the public disclosure of the agreement, resolved on  6. 5. , in accordance with article   of the capital markets board s communiqué on material events  ii- 5.   in order to protect our company s legitimate interests and to prevent any adverse effect on the process. this announcement is being made due to the signing of the agreement. respectfully announced to the public. we proclaim that our above disclosure is in conformity with the principles set down in  material events communiqué  of capital markets board, and it fully reflects all information coming to our knowledge on the subject matter thereof, and it is in conformity with our books, records and documents, and all reasonable efforts have been shown by our company in order to obtain all information fully and accurately about the subject matter thereof, and we re personally liable for the disclosures.","[('Thai Airways Related', 'PERSON'), ('Update Notification Flag Hayır', 'ORGANIZATION'), ('No', 'ORGANIZATION'), ('Correction Notification Flag Hayır', 'ORGANIZATION'), ('No', 'ORGANIZATION'), ('Date Of The Previous Notification', 'ORGANIZATION'), ('Same Subject', 'ORGANIZATION'), ('Notification Flag Evet', 'PERSON'), ('Announcement Content', 'PERSON'), ('JBA', 'ORGANIZATION'), ('Company', 'ORGANIZATION'), ('Thai', 'GPE'), ('Board', 'ORGANIZATION'), ('Directors', 'PERSON'), ('Article', 'ORGANIZATION'), ('Capital Markets Board', 'ORGANIZATION'), ('Communiqué', 'ORGANIZATION'), ('Material', 'ORGANIZATION'), ('Company', 'ORGANIZATION'), ('Capital Markets Board', 'ORGANIZATION')]","['revenue', 'board', 'board', 'board']"
