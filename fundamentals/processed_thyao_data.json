@@ -137,8 +137,8 @@
           "Open": 285.75,
           "High": 287.0,
           "Low": 284.75,
-          "Close": 286.0,
-          "Volume": 3041826,
+          "Close": 286.5,
+          "Volume": 5311968,
           "Dividends": 0.0,
           "Stock Splits": 0.0
         }
@@ -159,12 +159,12 @@
         "2025-06-04",
         "2025-06-05"
       ],
-      "date_range_requested": "2025-05-20 to 2025-06-05"
+      "date_range_requested": "2025-05-20 to 2025-06-08"
     },
     "price_change_absolute": 3.25,
     "price_change_percentage": 1.145374449339207,
     "direction": 1,
-    "processing_timestamp": "2025-06-05T11:27:25.456569"
+    "processing_timestamp": "2025-06-08T13:32:33.240537"
   },
   {
     "file_path": "thyao_notifications\\notification_1440782.json",
@@ -304,8 +304,8 @@
           "Open": 285.75,
           "High": 287.0,
           "Low": 284.75,
-          "Close": 286.0,
-          "Volume": 3041826,
+          "Close": 286.5,
+          "Volume": 5311968,
           "Dividends": 0.0,
           "Stock Splits": 0.0
         }
@@ -326,12 +326,12 @@
         "2025-06-04",
         "2025-06-05"
       ],
-      "date_range_requested": "2025-05-20 to 2025-06-05"
+      "date_range_requested": "2025-05-20 to 2025-06-08"
     },
     "price_change_absolute": 3.25,
     "price_change_percentage": 1.145374449339207,
     "direction": 1,
-    "processing_timestamp": "2025-06-05T11:27:25.790754"
+    "processing_timestamp": "2025-06-08T13:32:33.549698"
   },
   {
     "file_path": "thyao_notifications\\notification_1440796.json",
@@ -471,8 +471,8 @@
           "Open": 285.75,
           "High": 287.0,
           "Low": 284.75,
-          "Close": 286.0,
-          "Volume": 3041826,
+          "Close": 286.5,
+          "Volume": 5311968,
           "Dividends": 0.0,
           "Stock Splits": 0.0
         }
@@ -493,12 +493,12 @@
         "2025-06-04",
         "2025-06-05"
       ],
-      "date_range_requested": "2025-05-20 to 2025-06-05"
+      "date_range_requested": "2025-05-20 to 2025-06-08"
     },
     "price_change_absolute": 3.25,
     "price_change_percentage": 1.145374449339207,
     "direction": 1,
-    "processing_timestamp": "2025-06-05T11:27:26.171949"
+    "processing_timestamp": "2025-06-08T13:32:33.761120"
   },
   {
     "file_path": "thyao_notifications\\notification_1440806.json",
@@ -638,8 +638,8 @@
           "Open": 285.75,
           "High": 287.0,
           "Low": 284.75,
-          "Close": 286.0,
-          "Volume": 3041826,
+          "Close": 286.5,
+          "Volume": 5311968,
           "Dividends": 0.0,
           "Stock Splits": 0.0
         }
@@ -660,12 +660,12 @@
         "2025-06-04",
         "2025-06-05"
       ],
-      "date_range_requested": "2025-05-20 to 2025-06-05"
+      "date_range_requested": "2025-05-20 to 2025-06-08"
     },
     "price_change_absolute": 3.25,
     "price_change_percentage": 1.145374449339207,
     "direction": 1,
-    "processing_timestamp": "2025-06-05T11:27:26.532885"
+    "processing_timestamp": "2025-06-08T13:32:33.962226"
   },
   {
     "file_path": "thyao_notifications\\notification_1440807.json",
@@ -805,8 +805,8 @@
           "Open": 285.75,
           "High": 287.0,
           "Low": 284.75,
-          "Close": 286.0,
-          "Volume": 3041826,
+          "Close": 286.5,
+          "Volume": 5311968,
           "Dividends": 0.0,
           "Stock Splits": 0.0
         }
@@ -827,12 +827,12 @@
         "2025-06-04",
         "2025-06-05"
       ],
-      "date_range_requested": "2025-05-20 to 2025-06-05"
+      "date_range_requested": "2025-05-20 to 2025-06-08"
     },
     "price_change_absolute": 3.25,
     "price_change_percentage": 1.145374449339207,
     "direction": 1,
-    "processing_timestamp": "2025-06-05T11:27:26.795880"
+    "processing_timestamp": "2025-06-08T13:32:34.177555"
   },
   {
     "file_path": "thyao_notifications\\notification_1440808.json",
@@ -972,8 +972,8 @@
           "Open": 285.75,
           "High": 287.0,
           "Low": 284.75,
-          "Close": 286.0,
-          "Volume": 3041826,
+          "Close": 286.5,
+          "Volume": 5311968,
           "Dividends": 0.0,
           "Stock Splits": 0.0
         }
@@ -994,12 +994,12 @@
         "2025-06-04",
         "2025-06-05"
       ],
-      "date_range_requested": "2025-05-20 to 2025-06-05"
+      "date_range_requested": "2025-05-20 to 2025-06-08"
     },
     "price_change_absolute": 3.25,
     "price_change_percentage": 1.145374449339207,
     "direction": 1,
-    "processing_timestamp": "2025-06-05T11:27:27.195882"
+    "processing_timestamp": "2025-06-08T13:32:34.467465"
   },
   {
     "file_path": "thyao_notifications\\notification_1442091.json",
@@ -1139,8 +1139,8 @@
           "Open": 285.75,
           "High": 287.0,
           "Low": 284.75,
-          "Close": 286.0,
-          "Volume": 3041826,
+          "Close": 286.5,
+          "Volume": 5311968,
           "Dividends": 0.0,
           "Stock Splits": 0.0
         }
@@ -1161,12 +1161,12 @@
         "2025-06-04",
         "2025-06-05"
       ],
-      "date_range_requested": "2025-05-20 to 2025-06-05"
+      "date_range_requested": "2025-05-20 to 2025-06-08"
     },
     "price_change_absolute": 3.25,
     "price_change_percentage": 1.145374449339207,
     "direction": 1,
-    "processing_timestamp": "2025-06-05T11:27:27.712664"
+    "processing_timestamp": "2025-06-08T13:32:34.821097"
   },
   {
     "file_path": "thyao_notifications\\notification_1442222.json",
@@ -1306,8 +1306,8 @@
           "Open": 285.75,
           "High": 287.0,
           "Low": 284.75,
-          "Close": 286.0,
-          "Volume": 3041826,
+          "Close": 286.5,
+          "Volume": 5311968,
           "Dividends": 0.0,
           "Stock Splits": 0.0
         }
@@ -1328,12 +1328,12 @@
         "2025-06-04",
         "2025-06-05"
       ],
-      "date_range_requested": "2025-05-20 to 2025-06-05"
+      "date_range_requested": "2025-05-20 to 2025-06-08"
     },
     "price_change_absolute": 3.25,
     "price_change_percentage": 1.145374449339207,
     "direction": 1,
-    "processing_timestamp": "2025-06-05T11:27:28.011087"
+    "processing_timestamp": "2025-06-08T13:32:35.078757"
   },
   {
     "file_path": "thyao_notifications\\notification_1442313.json",
@@ -1473,8 +1473,8 @@
           "Open": 285.75,
           "High": 287.0,
           "Low": 284.75,
-          "Close": 286.0,
-          "Volume": 3041826,
+          "Close": 286.5,
+          "Volume": 5311968,
           "Dividends": 0.0,
           "Stock Splits": 0.0
         }
@@ -1495,12 +1495,12 @@
         "2025-06-04",
         "2025-06-05"
       ],
-      "date_range_requested": "2025-05-20 to 2025-06-05"
+      "date_range_requested": "2025-05-20 to 2025-06-08"
     },
     "price_change_absolute": 3.25,
     "price_change_percentage": 1.145374449339207,
     "direction": 1,
-    "processing_timestamp": "2025-06-05T11:27:28.467782"
+    "processing_timestamp": "2025-06-08T13:32:35.380452"
   },
   {
     "file_path": "thyao_notifications\\notification_1444201.json",
@@ -1640,8 +1640,8 @@
           "Open": 285.75,
           "High": 287.0,
           "Low": 284.75,
-          "Close": 286.0,
-          "Volume": 3041826,
+          "Close": 286.5,
+          "Volume": 5311968,
           "Dividends": 0.0,
           "Stock Splits": 0.0
         }
@@ -1662,11 +1662,11 @@
         "2025-06-04",
         "2025-06-05"
       ],
-      "date_range_requested": "2025-05-20 to 2025-06-05"
+      "date_range_requested": "2025-05-20 to 2025-06-08"
     },
     "price_change_absolute": 3.25,
     "price_change_percentage": 1.145374449339207,
     "direction": 1,
-    "processing_timestamp": "2025-06-05T11:27:28.745510"
+    "processing_timestamp": "2025-06-08T13:32:35.724373"
   }
 ]

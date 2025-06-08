@@ -1,0 +1,22 @@
+{
+  "timestamp": "2025-06-08T13:32:38.733846",
+  "data_quality": {
+    "data_exists": false,
+    "record_count": 0,
+    "issues": [
+      "No processed data file found"
+    ]
+  },
+  "model_health": {
+    "models_exist": false,
+    "model_count": 0,
+    "issues": [
+      "No trained models found"
+    ]
+  },
+  "system_status": "Warning",
+  "recommendations": [
+    "Run data processing pipeline to create training data",
+    "Train initial models using available data"
+  ]
+}
