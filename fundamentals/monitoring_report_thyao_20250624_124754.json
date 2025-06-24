@@ -1,0 +1,19 @@
+{
+  "timestamp": "2025-06-24T12:47:54.493728",
+  "stock_code": "THYAO",
+  "data_quality": {
+    "data_exists": true,
+    "record_count": 10,
+    "issues": [],
+    "missing_values": 0
+  },
+  "model_health": {
+    "models_exist": true,
+    "model_count": 3,
+    "issues": []
+  },
+  "system_status": "Healthy",
+  "recommendations": [
+    "Collect more training data for better model performance"
+  ]
+}

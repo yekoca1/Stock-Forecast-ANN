@@ -1,0 +1,48 @@
+{
+  "regression": {
+    "predictions": [
+      6.225296442687749,
+      6.3241106719367535
+    ],
+    "actual": [
+      6.225296442687747,
+      6.324110671936759
+    ],
+    "mae": 3.552713678800501e-15,
+    "rmse": 3.972054645195637e-15,
+    "r2": 1.0,
+    "directional_accuracy": 1.0,
+    "mape": 5.640021078034258e-14
+  },
+  "classification": {
+    "predictions": [
+      1,
+      1
+    ],
+    "probabilities": [
+      [
+        1.0
+      ],
+      [
+        1.0
+      ]
+    ],
+    "actual": [
+      1,
+      1
+    ],
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0
+  },
+  "summary": {
+    "overall_score": 87.5,
+    "strengths": [
+      "Excellent directional accuracy (100.0%)",
+      "High classification accuracy (100.0%)"
+    ],
+    "weaknesses": [],
+    "grade": "A"
+  }
+}

@@ -1,0 +1,3 @@
+feature,correlation,abs_correlation
+avg_sentence_length,-1.0,1.0
+textblob_subjectivity,-1.0,1.0

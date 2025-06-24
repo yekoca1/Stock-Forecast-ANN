@@ -1,5 +1,5 @@
 """
-KAP Pipeline Performance Evaluator - Cleaned Version
+KAP Pipeline Performance Evaluator - Clean Version
 Comprehensive testing and evaluation utilities for the KAP Pipeline
 """
 
@@ -15,7 +15,7 @@ import warnings
 warnings.filterwarnings('ignore')
 
 class PipelineEvaluator:
-    """Comprehensive evaluation system for the KAP Pipeline"""
+    """Clean evaluation system for the KAP Pipeline"""
     
     def __init__(self, pipeline=None):
         self.pipeline = pipeline
@@ -38,25 +38,25 @@ class PipelineEvaluator:
         X_test = self._prepare_features(test_data)
         
         # Evaluate models
-        if self._has_model('regression') and 'price_change_percent' in test_data.columns:
-            results['regression'] = self._evaluate_regression(X_test, test_data['price_change_percent'])
+        if self._has_model('regression') and 'price_change_percentage' in test_data.columns:
+            results['regression'] = self._evaluate_regression(X_test, test_data['price_change_percentage'])
             if save_plots:
                 self._plot_regression_results(results['regression'])
         
-        if self._has_model('classification') and 'price_direction' in test_data.columns:
-            results['classification'] = self._evaluate_classification(X_test, test_data['price_direction'])
+        if self._has_model('classification') and 'direction' in test_data.columns:
+            results['classification'] = self._evaluate_classification(X_test, test_data['direction'])
             if save_plots:
                 self._plot_classification_results(results['classification'])
         
         results['summary'] = self._generate_summary(results)
         self.results = results
         
-        self._save_results(results, 'evaluation_results.json')
+        self._save_results(results, f'evaluation_results_{self.pipeline.stock_code.lower()}.json')
         self._print_evaluation_summary(results)
         
         return results
     
-    def test_pipeline_reliability(self, num_tests=5, data_dir=None):
+    def test_pipeline_reliability(self, num_tests=5):
         """Test pipeline reliability with multiple runs"""
         print("\n" + "="*50)
         print("PIPELINE RELIABILITY TESTING")
@@ -66,10 +66,6 @@ class PipelineEvaluator:
             print("❌ No pipeline provided for testing")
             return None
         
-        test_files = self._find_test_files(data_dir)
-        if not test_files:
-            return None
-            
         results = {'processing_times': [], 'error_count': 0, 'success_count': 0}
         
         print(f"🧪 Running {num_tests} reliability tests...")
@@ -77,16 +73,15 @@ class PipelineEvaluator:
         for i in range(num_tests):
             try:
                 print(f"Test {i+1}/{num_tests}...", end=' ')
-                test_file = np.random.choice(test_files)
                 
                 start_time = datetime.now()
-                success = self._test_single_file(test_file)
+                result = self.pipeline.run_pipeline(force_retrain=False)
                 end_time = datetime.now()
                 
                 processing_time = (end_time - start_time).total_seconds()
                 results['processing_times'].append(processing_time)
                 
-                if success:
+                if result and result.get('tomorrow_prediction'):
                     results['success_count'] += 1
                     print("✅")
                 else:
@@ -111,6 +106,7 @@ class PipelineEvaluator:
         
         report = {
             'timestamp': datetime.now().isoformat(),
+            'stock_code': self.pipeline.stock_code if self.pipeline else None,
             'data_quality': self._check_data_quality(),
             'model_health': self._check_model_health(),
         }
@@ -136,11 +132,14 @@ class PipelineEvaluator:
         if test_data is not None:
             return test_data
             
-        if not os.path.exists("processed_training_data.csv"):
-            print("❌ No processed data found")
+        # Use stock-specific training file
+        training_file = self.pipeline.training_file if self.pipeline else "training_dataset.csv"
+        
+        if not os.path.exists(training_file):
+            print(f"❌ No training data found: {training_file}")
             return None
         
-        full_data = pd.read_csv("processed_training_data.csv")
+        full_data = pd.read_csv(training_file)
         split_idx = int(len(full_data) * 0.8)
         test_data = full_data[split_idx:].copy()
         
@@ -149,12 +148,21 @@ class PipelineEvaluator:
     
     def _prepare_features(self, data):
         """Prepare feature matrix from data"""
-        numeric_features = data.select_dtypes(include=[np.number]).columns
-        return data[numeric_features]
+        if not self.pipeline or not self.pipeline.models:
+            return data.select_dtypes(include=[np.number])
+        
+        feature_cols = self.pipeline.models.get('feature_cols', ['content_length', 'target_price', 'previous_price'])
+        available_features = [col for col in feature_cols if col in data.columns]
+        
+        if not available_features:
+            print("⚠️ Using all numeric features")
+            return data.select_dtypes(include=[np.number])
+        
+        return data[available_features].fillna(0)
     
     def _has_model(self, model_type):
         """Check if specific model type exists"""
-        return model_type in self.pipeline.models
+        return self.pipeline and model_type in self.pipeline.models
     
     def _evaluate_regression(self, X_test, y_test):
         """Evaluate regression model"""
@@ -191,44 +199,16 @@ class PipelineEvaluator:
             'f1': f1_score(y_test, predictions, average='weighted', zero_division=0)
         }
     
-    def _find_test_files(self, data_dir):
-        """Find test files for reliability testing"""
-        possible_dirs = [data_dir] if data_dir else ['data', 'json_data', 'reports', '.']
-        
-        for dir_name in possible_dirs:
-            if dir_name and os.path.exists(dir_name):
-                json_files = [os.path.join(dir_name, f) for f in os.listdir(dir_name) if f.endswith('.json')]
-                if json_files:
-                    print(f"📁 Found {len(json_files)} test files in: {dir_name}")
-                    return json_files
-        
-        print("❌ No JSON test files found")
-        return None
-    
-    def _test_single_file(self, file_path):
-        """Test processing of a single file"""
-        try:
-            if hasattr(self.pipeline, 'predict_single_report'):
-                result = self.pipeline.predict_single_report(file_path)
-            elif hasattr(self.pipeline, 'predict'):
-                with open(file_path, 'r') as f:
-                    data = json.load(f)
-                result = self.pipeline.predict(data)
-            else:
-                return False
-            
-            return result is not None
-        except Exception:
-            return False
-    
     def _check_data_quality(self):
         """Check quality of processed data"""
         quality = {'data_exists': False, 'record_count': 0, 'issues': []}
         
-        if os.path.exists("processed_training_data.csv"):
+        training_file = self.pipeline.training_file if self.pipeline else "training_dataset.csv"
+        
+        if os.path.exists(training_file):
             quality['data_exists'] = True
             try:
-                data = pd.read_csv("processed_training_data.csv")
+                data = pd.read_csv(training_file)
                 quality['record_count'] = len(data)
                 quality['missing_values'] = data.isnull().sum().sum()
                 
@@ -240,7 +220,7 @@ class PipelineEvaluator:
             except Exception as e:
                 quality['issues'].append(f"Error reading data: {str(e)}")
         else:
-            quality['issues'].append("No processed data file found")
+            quality['issues'].append(f"No training data file found: {training_file}")
         
         return quality
     
@@ -248,16 +228,29 @@ class PipelineEvaluator:
         """Check health of trained models"""
         health = {'models_exist': False, 'model_count': 0, 'issues': []}
         
-        if os.path.exists("trained_models.joblib"):
+        model_file = self.pipeline.model_file if self.pipeline else "trained_models.joblib"
+        
+        if os.path.exists(model_file):
             health['models_exist'] = True
             try:
                 import joblib
-                model_data = joblib.load("trained_models.joblib")
+                model_data = joblib.load(model_file)
                 health['model_count'] = len(model_data.get('models', {}))
+                
+                # Check model metrics
+                if 'metrics' in model_data:
+                    reg_r2 = model_data['metrics'].get('regression', {}).get('r2', 0)
+                    clf_acc = model_data['metrics'].get('classification', {}).get('accuracy', 0)
+                    
+                    if reg_r2 < 0.3:
+                        health['issues'].append("Low regression R² score")
+                    if clf_acc < 0.6:
+                        health['issues'].append("Low classification accuracy")
+                        
             except Exception as e:
                 health['issues'].append(f"Error loading models: {str(e)}")
         else:
-            health['issues'].append("No trained models found")
+            health['issues'].append(f"No trained models found: {model_file}")
         
         return health
     
@@ -348,7 +341,7 @@ class PipelineEvaluator:
             predicted = reg_results['predictions']
             
             fig, axes = plt.subplots(2, 2, figsize=(12, 8))
-            fig.suptitle('Regression Performance', fontsize=14)
+            fig.suptitle(f'Regression Performance - {self.pipeline.stock_code}', fontsize=14)
             
             # Actual vs Predicted
             axes[0, 0].scatter(actual, predicted, alpha=0.6)
@@ -380,9 +373,10 @@ class PipelineEvaluator:
             axes[1, 1].set_yticks([])
             
             plt.tight_layout()
-            plt.savefig('regression_performance.png', dpi=150, bbox_inches='tight')
+            plot_name = f'regression_performance_{self.pipeline.stock_code.lower()}.png'
+            plt.savefig(plot_name, dpi=150, bbox_inches='tight')
             plt.close()
-            print("✅ Regression plots saved")
+            print(f"✅ Regression plots saved: {plot_name}")
             
         except Exception as e:
             print(f"❌ Error creating regression plots: {e}")
@@ -395,7 +389,7 @@ class PipelineEvaluator:
             probabilities = clf_results['probabilities']
             
             fig, axes = plt.subplots(2, 2, figsize=(12, 8))
-            fig.suptitle('Classification Performance', fontsize=14)
+            fig.suptitle(f'Classification Performance - {self.pipeline.stock_code}', fontsize=14)
             
             # Confusion Matrix
             cm = confusion_matrix(actual, predicted)
@@ -438,9 +432,10 @@ class PipelineEvaluator:
             axes[1, 1].set_yticks([])
             
             plt.tight_layout()
-            plt.savefig('classification_performance.png', dpi=150, bbox_inches='tight')
+            plot_name = f'classification_performance_{self.pipeline.stock_code.lower()}.png'
+            plt.savefig(plot_name, dpi=150, bbox_inches='tight')
             plt.close()
-            print("✅ Classification plots saved")
+            print(f"✅ Classification plots saved: {plot_name}")
             
         except Exception as e:
             print(f"❌ Error creating classification plots: {e}")
@@ -448,7 +443,6 @@ class PipelineEvaluator:
     def _save_results(self, results, filename):
         """Save results to JSON file"""
         try:
-            # Convert numpy arrays to lists for JSON serialization
             json_results = self._convert_for_json(results)
             with open(filename, 'w') as f:
                 json.dump(json_results, f, indent=2, default=str)
@@ -459,7 +453,8 @@ class PipelineEvaluator:
     def _save_monitoring_report(self, report):
         """Save monitoring report"""
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-        filename = f"monitoring_report_{timestamp}.json"
+        stock_suffix = f"_{self.pipeline.stock_code.lower()}" if self.pipeline and self.pipeline.stock_code else ""
+        filename = f"monitoring_report{stock_suffix}_{timestamp}.json"
         self._save_results(report, filename)
     
     def _convert_for_json(self, obj):
@@ -545,24 +540,28 @@ def quick_evaluation(pipeline=None):
         'monitoring': evaluator.generate_monitoring_report()
     }
 
-def comprehensive_test():
+def comprehensive_test(stock_code="THYAO"):
     """Run comprehensive testing suite"""
     print("COMPREHENSIVE PIPELINE TESTING")
     print("="*50)
     
     try:
-        from main_pipeline import KAPPipeline
-        pipeline = KAPPipeline()
+        from main_pipeline import OptimizedKAPPipeline
+        pipeline = OptimizedKAPPipeline(stock_code=stock_code)
         
-        print("Running full pipeline...")
-        pipeline.run_full_pipeline(force_retrain=True)
+        print("Running pipeline...")
+        result = pipeline.run_pipeline(force_retrain=True)
+        
+        if not result:
+            print("❌ Pipeline execution failed")
+            return None
         
         evaluator = PipelineEvaluator(pipeline)
         
         results = {
-            'pipeline': pipeline,
+            'pipeline_result': result,
             'evaluation': evaluator.evaluate_model_performance(),
-            'reliability': evaluator.test_pipeline_reliability(),
+            'reliability': evaluator.test_pipeline_reliability(num_tests=3),
             'monitoring': evaluator.generate_monitoring_report()
         }
         

@@ -1,0 +1,148 @@
+{
+  "stock_code": "THYAO",
+  "analysis_timestamp": "2025-06-24T12:48:08.854859",
+  "tomorrow_prediction": {
+    "prediction_date": "2025-06-25",
+    "current_price": 269.0,
+    "predicted_price": 286.01,
+    "predicted_change_%": 6.324,
+    "predicted_direction": "UP",
+    "direction_confidence": 1.0,
+    "confidence_interval": [
+      286.01,
+      286.01
+    ],
+    "model_accuracy": {
+      "regression_r2": 1.0,
+      "classification_accuracy": 1.0
+    },
+    "features_used": [
+      "content_length",
+      "target_price",
+      "previous_price"
+    ]
+  },
+  "historical_predictions": {
+    "total_predictions": 10,
+    "sample_predictions": [
+      {
+        "index": 0,
+        "predicted_change_%": 6.324,
+        "actual_change_%": 6.324,
+        "predicted_direction": "UP",
+        "actual_direction": "UP",
+        "direction_confidence": 1.0,
+        "prediction_error": 0.0
+      },
+      {
+        "index": 1,
+        "predicted_change_%": 6.324,
+        "actual_change_%": 6.324,
+        "predicted_direction": "UP",
+        "actual_direction": "UP",
+        "direction_confidence": 1.0,
+        "prediction_error": 0.0
+      },
+      {
+        "index": 2,
+        "predicted_change_%": 6.324,
+        "actual_change_%": 6.324,
+        "predicted_direction": "UP",
+        "actual_direction": "UP",
+        "direction_confidence": 1.0,
+        "prediction_error": 0.0
+      },
+      {
+        "index": 3,
+        "predicted_change_%": 6.324,
+        "actual_change_%": 6.324,
+        "predicted_direction": "UP",
+        "actual_direction": "UP",
+        "direction_confidence": 1.0,
+        "prediction_error": 0.0
+      },
+      {
+        "index": 4,
+        "predicted_change_%": 6.225,
+        "actual_change_%": 6.225,
+        "predicted_direction": "UP",
+        "actual_direction": "UP",
+        "direction_confidence": 1.0,
+        "prediction_error": 0.0
+      },
+      {
+        "index": 5,
+        "predicted_change_%": 6.225,
+        "actual_change_%": 6.225,
+        "predicted_direction": "UP",
+        "actual_direction": "UP",
+        "direction_confidence": 1.0,
+        "prediction_error": 0.0
+      },
+      {
+        "index": 6,
+        "predicted_change_%": 6.225,
+        "actual_change_%": 6.225,
+        "predicted_direction": "UP",
+        "actual_direction": "UP",
+        "direction_confidence": 1.0,
+        "prediction_error": 0.0
+      },
+      {
+        "index": 7,
+        "predicted_change_%": 6.225,
+        "actual_change_%": 6.225,
+        "predicted_direction": "UP",
+        "actual_direction": "UP",
+        "direction_confidence": 1.0,
+        "prediction_error": 0.0
+      },
+      {
+        "index": 8,
+        "predicted_change_%": 6.225,
+        "actual_change_%": 6.225,
+        "predicted_direction": "UP",
+        "actual_direction": "UP",
+        "direction_confidence": 1.0,
+        "prediction_error": 0.0
+      },
+      {
+        "index": 9,
+        "predicted_change_%": 6.324,
+        "actual_change_%": 6.324,
+        "predicted_direction": "UP",
+        "actual_direction": "UP",
+        "direction_confidence": 1.0,
+        "prediction_error": 0.0
+      }
+    ],
+    "summary_stats": {
+      "mean_absolute_error": 0.0,
+      "max_error": 0.0,
+      "min_error": 0.0,
+      "direction_accuracy": 1.0
+    }
+  },
+  "model_performance": {
+    "regression": {
+      "mae": 3.552713678800501e-15,
+      "r2": 1.0,
+      "mse": 1.5777218104420236e-29
+    },
+    "classification": {
+      "accuracy": 1.0
+    }
+  },
+  "model_info": {
+    "models_available": [
+      "regression",
+      "classification",
+      "feature_cols"
+    ],
+    "training_features": [
+      "content_length",
+      "target_price",
+      "previous_price"
+    ]
+  }
+}
